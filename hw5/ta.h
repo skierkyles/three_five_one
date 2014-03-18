@@ -5,6 +5,8 @@
 #include <pthread.h>
 #include <semaphore.h>
 
+typedef enum { false, true } bool;
+
 // the maximum time (in seconds) to sleep
 #define MAX_SLEEP_TIME	5
 
@@ -30,4 +32,17 @@ void *ta_loop(void *param);
 void programming(int sleeptime);
 
 // simulate helping a student
-void help_student(int sleeptime);
+void help_student();
+
+// why don't you have a seat please
+bool take_chair();
+void leave_chair();
+
+// semaphores
+extern sem_t notify_ta;
+extern sem_t notify_student;
+
+// mutex
+extern pthread_mutex_t chair_mutex;
+
+extern int available_chairs;
