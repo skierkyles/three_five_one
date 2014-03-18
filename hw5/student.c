@@ -25,9 +25,16 @@ void *student_loop(void *param)
 	bool taken = take_chair();
 	if (taken == true) {
 		printf("Student %d has a chair waiting for help\n", number);
+		
+		// Wait is effectively notifying the TA that a 
+		// student needs help.
 		sem_wait(&notify_student);
+
+		// Give the chair up.
 		leave_chair();
 		printf("Student %d is getting helped\n", number);
+
+		// This thread sleeps for the same time as the TA thread.
 		sleep(1);		
 	}
 
