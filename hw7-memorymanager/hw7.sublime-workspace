@@ -1,0 +1,495 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"phy",
+				"physical_memory"
+			],
+			[
+				"phys",
+				"physical_memory"
+			],
+			[
+				"physi",
+				"physical_memory"
+			],
+			[
+				"fra",
+				"frame_number"
+			],
+			[
+				"ph",
+				"physical_address"
+			],
+			[
+				"fram",
+				"frame_number"
+			],
+			[
+				"page_",
+				"page_number"
+			],
+			[
+				"frame",
+				"frame_number"
+			],
+			[
+				"page",
+				"page_number"
+			],
+			[
+				"physical_",
+				"physical_address"
+			],
+			[
+				"phs",
+				"physical_memory"
+			],
+			[
+				"seek",
+				"seek_spot"
+			],
+			[
+				"see",
+				"seek_spot"
+			],
+			[
+				"log",
+				"logical_address"
+			],
+			[
+				"tag",
+				"tags"
+			],
+			[
+				"ta",
+				"TaggableManager"
+			],
+			[
+				"Conte",
+				"ContentAdmin"
+			],
+			[
+				"c",
+				"Content"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"prob",
+				"problems_correct"
+			],
+			[
+				"lev",
+				"level_history"
+			],
+			[
+				"tot",
+				"total_problems_correct_for_level"
+			],
+			[
+				"probl",
+				"problems_attempted"
+			],
+			[
+				"Level",
+				"LevelStat"
+			],
+			[
+				"get",
+				"get_next_level"
+			],
+			[
+				"or",
+				"OrderedModelAdmin"
+			],
+			[
+				"to",
+				"to_unlock"
+			],
+			[
+				"level",
+				"level_id"
+			],
+			[
+				"problem",
+				"problem_set"
+			],
+			[
+				"question",
+				"question-form"
+			],
+			[
+				"res",
+				"response_data"
+			],
+			[
+				"show",
+				"showSuccessModal"
+			],
+			[
+				"not",
+				"notify_ta"
+			],
+			[
+				"sleep",
+				"sleep_time"
+			],
+			[
+				"pthread",
+				"pthread_mutex_unlock"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "vm.c",
+			"settings":
+			{
+				"buffer_size": 4943,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "FA: Logical Address: 16916 	 FN: 0 Physical Address: 20 	 Value: 0\nFA: Logical Address: 62493 	 FN: 256 Physical Address: 285 	 Value: 0\nFA: Logical Address: 30198 	 FN: 512 Physical Address: 758 	 Value: 29\nFA: Logical Address: 53683 	 FN: 768 Physical Address: 947 	 Value: 108\nFA: Logical Address: 40185 	 FN: 1024 Physical Address: 1273 	 Value: 0\nFA: Logical Address: 28781 	 FN: 1280 Physical Address: 1389 	 Value: 0\nFA: Logical Address: 24462 	 FN: 1536 Physical Address: 1678 	 Value: 23\nFA: Logical Address: 48399 	 FN: 1792 Physical Address: 1807 	 Value: 67\nFA: Logical Address: 64815 	 FN: 2048 Physical Address: 2095 	 Value: 75\nFA: Logical Address: 18295 	 FN: 2304 Physical Address: 2423 	 Value: -35\nFA: Logical Address: 12218 	 FN: 2560 Physical Address: 2746 	 Value: 11\nFA: Logical Address: 22760 	 FN: 2816 Physical Address: 3048 	 Value: 0\nFA: Logical Address: 57982 	 FN: 3072 Physical Address: 3198 	 Value: 56\nFA: Logical Address: 27966 	 FN: 3328 Physical Address: 3390 	 Value: 27\nFA: Logical Address: 54894 	 FN: 3584 Physical Address: 3694 	 Value: 53\nFA: Logical Address: 38929 	 FN: 3840 Physical Address: 3857 	 Value: 0\nFA: Logical Address: 32865 	 FN: 4096 Physical Address: 4193 	 Value: 0\nFA: Logical Address: 64243 	 FN: 4352 Physical Address: 4595 	 Value: -68\nFA: Logical Address: 2315 	 FN: 4608 Physical Address: 4619 	 Value: 66\nFA: Logical Address: 64454 	 FN: 4864 Physical Address: 5062 	 Value: 62\nFA: Logical Address: 55041 	 FN: 5120 Physical Address: 5121 	 Value: 0\nFA: Logical Address: 18633 	 FN: 5376 Physical Address: 5577 	 Value: 0\nFA: Logical Address: 14557 	 FN: 5632 Physical Address: 5853 	 Value: 0\nFA: Logical Address: 61006 	 FN: 5888 Physical Address: 5966 	 Value: 59\nPT: Logical Address: 62615 	 FN: 256 Physical Address: 407 	 Value: -91\nFA: Logical Address: 7591 	 FN: 6144 Physical Address: 6311 	 Value: 105\nFA: Logical Address: 64747 	 FN: 6400 Physical Address: 6635 	 Value: 58\nFA: Logical Address: 6727 	 FN: 6656 Physical Address: 6727 	 Value: -111\nFA: Logical Address: 32315 	 FN: 6912 Physical Address: 6971 	 Value: -114\nFA: Logical Address: 60645 	 FN: 7168 Physical Address: 7397 	 Value: 0\nFA: Logical Address: 6308 	 FN: 7424 Physical Address: 7588 	 Value: 0\nFA: Logical Address: 45688 	 FN: 7680 Physical Address: 7800 	 Value: 0\nFA: Logical Address: 969 	 FN: 7936 Physical Address: 8137 	 Value: 0\nFA: Logical Address: 40891 	 FN: 8192 Physical Address: 8379 	 Value: -18\nFA: Logical Address: 49294 	 FN: 8448 Physical Address: 8590 	 Value: 48\nFA: Logical Address: 41118 	 FN: 8704 Physical Address: 8862 	 Value: 40\nFA: Logical Address: 21395 	 FN: 8960 Physical Address: 9107 	 Value: -28\nFA: Logical Address: 6091 	 FN: 9216 Physical Address: 9419 	 Value: -14\nFA: Logical Address: 32541 	 FN: 9472 Physical Address: 9501 	 Value: 0\nFA: Logical Address: 17665 	 FN: 9728 Physical Address: 9729 	 Value: 0\nFA: Logical Address: 3784 	 FN: 9984 Physical Address: 10184 	 Value: 0\nPT: Logical Address: 28718 	 FN: 1280 Physical Address: 1326 	 Value: 3\nFA: Logical Address: 59240 	 FN: 10240 Physical Address: 10344 	 Value: 0\nPT: Logical Address: 40178 	 FN: 1024 Physical Address: 1266 	 Value: 57\nFA: Logical Address: 60086 	 FN: 10496 Physical Address: 10678 	 Value: 58\nFA: Logical Address: 42252 	 FN: 10752 Physical Address: 10764 	 Value: 0\nFA: Logical Address: 44770 	 FN: 11008 Physical Address: 11234 	 Value: 43\nFA: Logical Address: 22514 	 FN: 11264 Physical Address: 11506 	 Value: 21\nFA: Logical Address: 3067 	 FN: 11520 Physical Address: 11771 	 Value: -2\nFA: Logical Address: 15757 	 FN: 11776 Physical Address: 11917 	 Value: 0\nFA: Logical Address: 31649 	 FN: 12032 Physical Address: 12193 	 Value: 0\nFA: Logical Address: 10842 	 FN: 12288 Physical Address: 12378 	 Value: 10\nFA: Logical Address: 43765 	 FN: 12544 Physical Address: 12789 	 Value: 0\nFA: Logical Address: 33405 	 FN: 12800 Physical Address: 12925 	 Value: 0\nFA: Logical Address: 44954 	 FN: 13056 Physical Address: 13210 	 Value: 43\nFA: Logical Address: 56657 	 FN: 13312 Physical Address: 13393 	 Value: 0\nFA: Logical Address: 5003 	 FN: 13568 Physical Address: 13707 	 Value: -30\nFA: Logical Address: 50227 	 FN: 13824 Physical Address: 13875 	 Value: 12\nFA: Logical Address: 19358 	 FN: 14080 Physical Address: 14238 	 Value: 18\nFA: Logical Address: 36529 	 FN: 14336 Physical Address: 14513 	 Value: 0\nFA: Logical Address: 10392 	 FN: 14592 Physical Address: 14744 	 Value: 0\nFA: Logical Address: 58882 	 FN: 14848 Physical Address: 14850 	 Value: 57\nFA: Logical Address: 5129 	 FN: 15104 Physical Address: 15113 	 Value: 0\nFA: Logical Address: 58554 	 FN: 15360 Physical Address: 15546 	 Value: 57\nPT: Logical Address: 58584 	 FN: 15360 Physical Address: 15576 	 Value: 0\nFA: Logical Address: 27444 	 FN: 15616 Physical Address: 15668 	 Value: 0\nPT: Logical Address: 58982 	 FN: 14848 Physical Address: 14950 	 Value: 26\nFA: Logical Address: 51476 	 FN: 15872 Physical Address: 15892 	 Value: 0\nPT: Logical Address: 6796 	 FN: 6656 Physical Address: 6796 	 Value: 0\nPT: Logical Address: 21311 	 FN: 8960 Physical Address: 9023 	 Value: 79\nFA: Logical Address: 30705 	 FN: 16128 Physical Address: 16369 	 Value: 0\nFA: Logical Address: 28964 	 FN: 16384 Physical Address: 16420 	 Value: 0\nPT: Logical Address: 41003 	 FN: 8704 Physical Address: 8747 	 Value: 74\nFA: Logical Address: 20259 	 FN: 16640 Physical Address: 16675 	 Value: -56\nPT: Logical Address: 57857 	 FN: 3072 Physical Address: 3073 	 Value: 0\nFA: Logical Address: 63258 	 FN: 16896 Physical Address: 16922 	 Value: 61\nPT: Logical Address: 36374 	 FN: 14336 Physical Address: 14358 	 Value: 61\nFA: Logical Address: 692 	 FN: 17152 Physical Address: 17332 	 Value: 0\nFA: Logical Address: 43121 	 FN: 17408 Physical Address: 17521 	 Value: 0\nFA: Logical Address: 48128 	 FN: 17664 Physical Address: 17664 	 Value: 0\nFA: Logical Address: 34561 	 FN: 17920 Physical Address: 17921 	 Value: 0\nPT: Logical Address: 49213 	 FN: 8448 Physical Address: 8509 	 Value: 0\nFA: Logical Address: 36922 	 FN: 18176 Physical Address: 18234 	 Value: 36\nPT: Logical Address: 59162 	 FN: 10240 Physical Address: 10266 	 Value: 36\nFA: Logical Address: 50552 	 FN: 18432 Physical Address: 18552 	 Value: 0\nPT: Logical Address: 17866 	 FN: 9728 Physical Address: 9930 	 Value: 49\nFA: Logical Address: 18145 	 FN: 18688 Physical Address: 18913 	 Value: 0\nFA: Logical Address: 3884 	 FN: 18944 Physical Address: 18988 	 Value: 0\nFA: Logical Address: 54388 	 FN: 19200 Physical Address: 19316 	 Value: 0\nFA: Logical Address: 42932 	 FN: 19456 Physical Address: 19636 	 Value: 0\nFA: Logical Address: 46919 	 FN: 19712 Physical Address: 19783 	 Value: -47\nPT: Logical Address: 58892 	 FN: 14848 Physical Address: 14860 	 Value: 0\nFA: Logical Address: 8620 	 FN: 19968 Physical Address: 20140 	 Value: 0\nFA: Logical Address: 38336 	 FN: 20224 Physical Address: 20416 	 Value: 0\nPT: Logical Address: 64357 	 FN: 4864 Physical Address: 4965 	 Value: 0\nFA: Logical Address: 23387 	 FN: 20480 Physical Address: 20571 	 Value: -42\nFA: Logical Address: 42632 	 FN: 20736 Physical Address: 20872 	 Value: 0\nFA: Logical Address: 15913 	 FN: 20992 Physical Address: 21033 	 Value: 0\nPT: Logical Address: 15679 	 FN: 11776 Physical Address: 11839 	 Value: -113\nPT: Logical Address: 22501 	 FN: 11264 Physical Address: 11493 	 Value: 0\nFA: Logical Address: 37540 	 FN: 21248 Physical Address: 21412 	 Value: 0\nFA: Logical Address: 5527 	 FN: 21504 Physical Address: 21655 	 Value: 101\nFA: Logical Address: 63921 	 FN: 21760 Physical Address: 21937 	 Value: 0\nPT: Logical Address: 62716 	 FN: 256 Physical Address: 508 	 Value: 0\nPT: Logical Address: 32874 	 FN: 4096 Physical Address: 4202 	 Value: 62\nPT: Logical Address: 64390 	 FN: 4864 Physical Address: 4998 	 Value: 62\nFA: Logical Address: 63101 	 FN: 22016 Physical Address: 22141 	 Value: 0\nFA: Logical Address: 61802 	 FN: 22272 Physical Address: 22378 	 Value: 60\nFA: Logical Address: 19648 	 FN: 22528 Physical Address: 22720 	 Value: 0\nPT: Logical Address: 29031 	 FN: 16384 Physical Address: 16487 	 Value: 25\nPT: Logical Address: 44981 	 FN: 13056 Physical Address: 13237 	 Value: 0\nPT: Logical Address: 28092 	 FN: 3328 Physical Address: 3516 	 Value: 0\nFA: Logical Address: 9448 	 FN: 22784 Physical Address: 23016 	 Value: 0\nPT: Logical Address: 44744 	 FN: 11008 Physical Address: 11208 	 Value: 0\nFA: Logical Address: 61496 	 FN: 23040 Physical Address: 23096 	 Value: 0\nFA: Logical Address: 31453 	 FN: 23296 Physical Address: 23517 	 Value: 0\nFA: Logical Address: 60746 	 FN: 23552 Physical Address: 23626 	 Value: 59\nPT: Logical Address: 12199 	 FN: 2560 Physical Address: 2727 	 Value: 105\nFA: Logical Address: 62255 	 FN: 23808 Physical Address: 23855 	 Value: -53\nFA: Logical Address: 21793 	 FN: 24064 Physical Address: 24097 	 Value: 0\nFA: Logical Address: 26544 	 FN: 24320 Physical Address: 24496 	 Value: 0\nFA: Logical Address: 14964 	 FN: 24576 Physical Address: 24692 	 Value: 0\nFA: Logical Address: 41462 	 FN: 24832 Physical Address: 25078 	 Value: 40\nFA: Logical Address: 56089 	 FN: 25088 Physical Address: 25113 	 Value: 0\nFA: Logical Address: 52038 	 FN: 25344 Physical Address: 25414 	 Value: 50\nFA: Logical Address: 47982 	 FN: 25600 Physical Address: 25710 	 Value: 46\nFA: Logical Address: 59484 	 FN: 25856 Physical Address: 25948 	 Value: 0\nFA: Logical Address: 50924 	 FN: 26112 Physical Address: 26348 	 Value: 0\nFA: Logical Address: 6942 	 FN: 26368 Physical Address: 26398 	 Value: 6\nFA: Logical Address: 34998 	 FN: 26624 Physical Address: 26806 	 Value: 34\nFA: Logical Address: 27069 	 FN: 26880 Physical Address: 27069 	 Value: 0\nFA: Logical Address: 51926 	 FN: 27136 Physical Address: 27350 	 Value: 50\nPT: Logical Address: 60645 	 FN: 7168 Physical Address: 7397 	 Value: 0\nPT: Logical Address: 43181 	 FN: 17408 Physical Address: 17581 	 Value: 0\nFA: Logical Address: 10559 	 FN: 27392 Physical Address: 27455 	 Value: 79\nFA: Logical Address: 4664 	 FN: 27648 Physical Address: 27704 	 Value: 0\nFA: Logical Address: 28578 	 FN: 27904 Physical Address: 28066 	 Value: 27\nPT: Logical Address: 59516 	 FN: 25856 Physical Address: 25980 	 Value: 0\nPT: Logical Address: 38912 	 FN: 3840 Physical Address: 3840 	 Value: 0\nFA: Logical Address: 63562 	 FN: 28160 Physical Address: 28234 	 Value: 62\nPT: Logical Address: 64846 	 FN: 2048 Physical Address: 2126 	 Value: 62\nFA: Logical Address: 62938 	 FN: 28416 Physical Address: 28634 	 Value: 61\nFA: Logical Address: 27194 	 FN: 28672 Physical Address: 28730 	 Value: 26\nPT: Logical Address: 28804 	 FN: 1280 Physical Address: 1412 	 Value: 0\nPT: Logical Address: 61703 	 FN: 22272 Physical Address: 22279 	 Value: -127\nPT: Logical Address: 10998 	 FN: 12288 Physical Address: 12534 	 Value: 26\nFA: Logical Address: 6596 	 FN: 28928 Physical Address: 29124 	 Value: 0\nFA: Logical Address: 37721 	 FN: 29184 Physical Address: 29273 	 Value: 0\nFA: Logical Address: 43430 	 FN: 29440 Physical Address: 29606 	 Value: 42\nPT: Logical Address: 22692 	 FN: 2816 Physical Address: 2980 	 Value: 0\nPT: Logical Address: 62971 	 FN: 28416 Physical Address: 28667 	 Value: 126\nFA: Logical Address: 47125 	 FN: 29696 Physical Address: 29717 	 Value: 0\nFA: Logical Address: 52521 	 FN: 29952 Physical Address: 29993 	 Value: 0\nPT: Logical Address: 34646 	 FN: 17920 Physical Address: 18006 	 Value: 51\nPT: Logical Address: 32889 	 FN: 4096 Physical Address: 4217 	 Value: 0\nFA: Logical Address: 13055 	 FN: 30208 Physical Address: 30463 	 Value: -65\nFA: Logical Address: 65416 	 FN: 30464 Physical Address: 30600 	 Value: 0\nPT: Logical Address: 62869 	 FN: 28416 Physical Address: 28565 	 Value: 0\nFA: Logical Address: 57314 	 FN: 30720 Physical Address: 30946 	 Value: 55\nFA: Logical Address: 12659 	 FN: 30976 Physical Address: 31091 	 Value: 92\nFA: Logical Address: 14052 	 FN: 31232 Physical Address: 31460 	 Value: 0\nPT: Logical Address: 32956 	 FN: 4096 Physical Address: 4284 	 Value: 0\nPT: Logical Address: 49273 	 FN: 8448 Physical Address: 8569 	 Value: 0\nPT: Logical Address: 50352 	 FN: 13824 Physical Address: 14000 	 Value: 0\nFA: Logical Address: 49737 	 FN: 31488 Physical Address: 31561 	 Value: 0\nFA: Logical Address: 15555 	 FN: 31744 Physical Address: 31939 	 Value: 48\nFA: Logical Address: 47475 	 FN: 32000 Physical Address: 32115 	 Value: 92\nFA: Logical Address: 15328 	 FN: 32256 Physical Address: 32480 	 Value: 0\nPT: Logical Address: 34621 	 FN: 17920 Physical Address: 17981 	 Value: 0\nFA: Logical Address: 51365 	 FN: 32512 Physical Address: 32677 	 Value: 0\nPT: Logical Address: 32820 	 FN: 4096 Physical Address: 4148 	 Value: 0\nFA: Logical Address: 48855 	 FN: 32768 Physical Address: 32983 	 Value: -75\nPT: Logical Address: 12224 	 FN: 2560 Physical Address: 2752 	 Value: 0\nFA: Logical Address: 2035 	 FN: 33024 Physical Address: 33267 	 Value: -4\nPT: Logical Address: 60539 	 FN: 7168 Physical Address: 7291 	 Value: -34\nFA: Logical Address: 14595 	 FN: 33280 Physical Address: 33283 	 Value: 64\nPT: Logical Address: 13853 	 FN: 31232 Physical Address: 31261 	 Value: 0\nFA: Logical Address: 24143 	 FN: 33536 Physical Address: 33615 	 Value: -109\nPT: Logical Address: 15216 	 FN: 32256 Physical Address: 32368 	 Value: 0\nFA: Logical Address: 8113 	 FN: 33792 Physical Address: 33969 	 Value: 0\nPT: Logical Address: 22640 	 FN: 2816 Physical Address: 2928 	 Value: 0\nPT: Logical Address: 32978 	 FN: 4096 Physical Address: 4306 	 Value: 7\nPT: Logical Address: 39151 	 FN: 3840 Physical Address: 4079 	 Value: -5\nPT: Logical Address: 19520 	 FN: 22528 Physical Address: 22592 	 Value: 0\nFA: Logical Address: 58141 	 FN: 34048 Physical Address: 34077 	 Value: 0\nPT: Logical Address: 63959 	 FN: 21760 Physical Address: 21975 	 Value: -11\nFA: Logical Address: 53040 	 FN: 34304 Physical Address: 34352 	 Value: 0\nFA: Logical Address: 55842 	 FN: 34560 Physical Address: 34594 	 Value: 54\nPT: Logical Address: 585 	 FN: 17152 Physical Address: 17225 	 Value: 0\nPT: Logical Address: 51229 	 FN: 32512 Physical Address: 32541 	 Value: 0\nPT: Logical Address: 64181 	 FN: 4352 Physical Address: 4533 	 Value: 0\nPT: Logical Address: 54879 	 FN: 3584 Physical Address: 3679 	 Value: -105\nFA: Logical Address: 28210 	 FN: 34816 Physical Address: 34866 	 Value: 27\nPT: Logical Address: 10268 	 FN: 14592 Physical Address: 14620 	 Value: 0\nPT: Logical Address: 15395 	 FN: 31744 Physical Address: 31779 	 Value: -120\nPT: Logical Address: 12884 	 FN: 30208 Physical Address: 30292 	 Value: 0\nFA: Logical Address: 2149 	 FN: 35072 Physical Address: 35173 	 Value: 0\nFA: Logical Address: 53483 	 FN: 35328 Physical Address: 35563 	 Value: 58\nPT: Logical Address: 59606 	 FN: 25856 Physical Address: 26070 	 Value: 52\nPT: Logical Address: 14981 	 FN: 24576 Physical Address: 24709 	 Value: 0\nFA: Logical Address: 36672 	 FN: 35584 Physical Address: 35648 	 Value: 0\nFA: Logical Address: 23197 	 FN: 35840 Physical Address: 35997 	 Value: 0\nPT: Logical Address: 36518 	 FN: 14336 Physical Address: 14502 	 Value: 22\nFA: Logical Address: 13361 	 FN: 36096 Physical Address: 36145 	 Value: 0\nFA: Logical Address: 19810 	 FN: 36352 Physical Address: 36450 	 Value: 19\nFA: Logical Address: 25955 	 FN: 36608 Physical Address: 36707 	 Value: 88\nPT: Logical Address: 62678 	 FN: 256 Physical Address: 470 	 Value: 25\nPT: Logical Address: 26021 	 FN: 36608 Physical Address: 36773 	 Value: 0\nFA: Logical Address: 29409 	 FN: 36864 Physical Address: 37089 	 Value: 0\nFA: Logical Address: 38111 	 FN: 37120 Physical Address: 37343 	 Value: 55\nPT: Logical Address: 58573 	 FN: 15360 Physical Address: 15565 	 Value: 0\nFA: Logical Address: 56840 	 FN: 37376 Physical Address: 37384 	 Value: 0\nPT: Logical Address: 41306 	 FN: 24832 Physical Address: 24922 	 Value: 55\nPT: Logical Address: 54426 	 FN: 19200 Physical Address: 19354 	 Value: 55\nPT: Logical Address: 3617 	 FN: 9984 Physical Address: 10017 	 Value: 0\nPT: Logical Address: 50652 	 FN: 18432 Physical Address: 18652 	 Value: 0\nPT: Logical Address: 41452 	 FN: 24832 Physical Address: 25068 	 Value: 0\nPT: Logical Address: 20241 	 FN: 16640 Physical Address: 16657 	 Value: 0\nPT: Logical Address: 31723 	 FN: 12032 Physical Address: 12267 	 Value: -70\nPT: Logical Address: 53747 	 FN: 768 Physical Address: 1011 	 Value: -68\nPT: Logical Address: 28550 	 FN: 27904 Physical Address: 28038 	 Value: 55\nPT: Logical Address: 23402 	 FN: 20480 Physical Address: 20586 	 Value: 55\nFA: Logical Address: 21205 	 FN: 37632 Physical Address: 37845 	 Value: 0\nPT: Logical Address: 56181 	 FN: 25088 Physical Address: 25205 	 Value: 0\nFA: Logical Address: 57470 	 FN: 37888 Physical Address: 38014 	 Value: 56\nFA: Logical Address: 39933 	 FN: 38144 Physical Address: 38397 	 Value: 0\nPT: Logical Address: 34964 	 FN: 26624 Physical Address: 26772 	 Value: 0\nFA: Logical Address: 24781 	 FN: 38400 Physical Address: 38605 	 Value: 0\nFA: Logical Address: 41747 	 FN: 38656 Physical Address: 38675 	 Value: -60\nPT: Logical Address: 62564 	 FN: 256 Physical Address: 356 	 Value: 0\nPT: Logical Address: 58461 	 FN: 15360 Physical Address: 15453 	 Value: 0\nFA: Logical Address: 20858 	 FN: 38912 Physical Address: 39034 	 Value: 20\nPT: Logical Address: 49301 	 FN: 8448 Physical Address: 8597 	 Value: 0\nFA: Logical Address: 40572 	 FN: 39168 Physical Address: 39292 	 Value: 0\nFA: Logical Address: 23840 	 FN: 39424 Physical Address: 39456 	 Value: 0\nFA: Logical Address: 35278 	 FN: 39680 Physical Address: 39886 	 Value: 34\nPT: Logical Address: 62905 	 FN: 28416 Physical Address: 28601 	 Value: 0\nPT: Logical Address: 56650 	 FN: 13312 Physical Address: 13386 	 Value: 34\nFA: Logical Address: 11149 	 FN: 39936 Physical Address: 40077 	 Value: 0\nPT: Logical Address: 38920 	 FN: 3840 Physical Address: 3848 	 Value: 0\nPT: Logical Address: 23430 	 FN: 20480 Physical Address: 20614 	 Value: 10\nPT: Logical Address: 57592 	 FN: 37888 Physical Address: 38136 	 Value: 0\nFA: Logical Address: 3080 	 FN: 40192 Physical Address: 40200 	 Value: 0\nPT: Logical Address: 6677 	 FN: 6656 Physical Address: 6677 	 Value: 0\nPT: Logical Address: 50704 	 FN: 26112 Physical Address: 26128 	 Value: 0\nPT: Logical Address: 51883 	 FN: 27136 Physical Address: 27307 	 Value: 42\nPT: Logical Address: 62799 	 FN: 28416 Physical Address: 28495 	 Value: 19\nFA: Logical Address: 20188 	 FN: 40448 Physical Address: 40668 	 Value: 0\nFA: Logical Address: 1245 	 FN: 40704 Physical Address: 40925 	 Value: 0\nPT: Logical Address: 12220 	 FN: 2560 Physical Address: 2748 	 Value: 0\nFA: Logical Address: 17602 	 FN: 40960 Physical Address: 41154 	 Value: 17\nPT: Logical Address: 28609 	 FN: 27904 Physical Address: 28097 	 Value: 0\nPT: Logical Address: 42694 	 FN: 20736 Physical Address: 20934 	 Value: 17\nFA: Logical Address: 29826 	 FN: 41216 Physical Address: 41346 	 Value: 29\nPT: Logical Address: 13827 	 FN: 31232 Physical Address: 31235 	 Value: 0\nPT: Logical Address: 27336 	 FN: 28672 Physical Address: 28872 	 Value: 0\nPT: Logical Address: 53343 	 FN: 35328 Physical Address: 35423 	 Value: 23\nFA: Logical Address: 11533 	 FN: 41472 Physical Address: 41485 	 Value: 0\nFA: Logical Address: 41713 	 FN: 41728 Physical Address: 41969 	 Value: 0\nFA: Logical Address: 33890 	 FN: 41984 Physical Address: 42082 	 Value: 33\nPT: Logical Address: 4894 	 FN: 13568 Physical Address: 13598 	 Value: 33\nPT: Logical Address: 57599 	 FN: 37888 Physical Address: 38143 	 Value: 63\nPT: Logical Address: 3870 	 FN: 18944 Physical Address: 18974 	 Value: 33\nPT: Logical Address: 58622 	 FN: 15360 Physical Address: 15614 	 Value: 33\nPT: Logical Address: 29780 	 FN: 41216 Physical Address: 41300 	 Value: 0\nPT: Logical Address: 62553 	 FN: 256 Physical Address: 345 	 Value: 0\nPT: Logical Address: 2303 	 FN: 35072 Physical Address: 35327 	 Value: 63\nPT: Logical Address: 51915 	 FN: 27136 Physical Address: 27339 	 Value: 50\nPT: Logical Address: 6251 	 FN: 7424 Physical Address: 7531 	 Value: 26\nPT: Logical Address: 38107 	 FN: 37120 Physical Address: 37339 	 Value: 54\nPT: Logical Address: 59325 	 FN: 10240 Physical Address: 10429 	 Value: 0\nFA: Logical Address: 61295 	 FN: 42240 Physical Address: 42351 	 Value: -37\nFA: Logical Address: 26699 	 FN: 42496 Physical Address: 42571 	 Value: 18\nFA: Logical Address: 51188 	 FN: 42752 Physical Address: 42996 	 Value: 0\nPT: Logical Address: 59519 	 FN: 25856 Physical Address: 25983 	 Value: -33\nFA: Logical Address: 7345 	 FN: 43008 Physical Address: 43185 	 Value: 0\nPT: Logical Address: 20325 	 FN: 16640 Physical Address: 16741 	 Value: 0\nFA: Logical Address: 39633 	 FN: 43264 Physical Address: 43473 	 Value: 0\nFA: Logical Address: 1562 	 FN: 43520 Physical Address: 43546 	 Value: 1\nPT: Logical Address: 7580 	 FN: 6144 Physical Address: 6300 	 Value: 0\nPT: Logical Address: 8170 	 FN: 33792 Physical Address: 34026 	 Value: 1\nPT: Logical Address: 62256 	 FN: 23808 Physical Address: 23856 	 Value: 0\nFA: Logical Address: 35823 	 FN: 43776 Physical Address: 44015 	 Value: -5\nFA: Logical Address: 27790 	 FN: 44032 Physical Address: 44174 	 Value: 27\nFA: Logical Address: 13191 	 FN: 44288 Physical Address: 44423 	 Value: -31\nFA: Logical Address: 9772 	 FN: 44544 Physical Address: 44588 	 Value: 0\nPT: Logical Address: 7477 	 FN: 6144 Physical Address: 6197 	 Value: 0\nFA: Logical Address: 44455 	 FN: 44800 Physical Address: 44967 	 Value: 105\nPT: Logical Address: 59546 	 FN: 25856 Physical Address: 26010 	 Value: 43\nPT: Logical Address: 49347 	 FN: 8448 Physical Address: 8643 	 Value: 112\nPT: Logical Address: 36539 	 FN: 14336 Physical Address: 14523 	 Value: 110\nFA: Logical Address: 12453 	 FN: 45056 Physical Address: 45221 	 Value: 0\nFA: Logical Address: 49640 	 FN: 45312 Physical Address: 45544 	 Value: 0\nPT: Logical Address: 28290 	 FN: 34816 Physical Address: 34946 	 Value: 48\nPT: Logical Address: 44817 	 FN: 13056 Physical Address: 13073 	 Value: 0\nPT: Logical Address: 8565 	 FN: 19968 Physical Address: 20085 	 Value: 0\nFA: Logical Address: 16399 	 FN: 45568 Physical Address: 45583 	 Value: 3\nPT: Logical Address: 41934 	 FN: 38656 Physical Address: 38862 	 Value: 16\nFA: Logical Address: 45457 	 FN: 45824 Physical Address: 45969 	 Value: 0\nPT: Logical Address: 33856 	 FN: 41984 Physical Address: 42048 	 Value: 0\nPT: Logical Address: 19498 	 FN: 22528 Physical Address: 22570 	 Value: 44\nPT: Logical Address: 17661 	 FN: 40960 Physical Address: 41213 	 Value: 0\nPT: Logical Address: 63829 	 FN: 21760 Physical Address: 21845 	 Value: 0\nFA: Logical Address: 42034 	 FN: 46080 Physical Address: 46130 	 Value: 41\nPT: Logical Address: 28928 	 FN: 16384 Physical Address: 16384 	 Value: 0\nPT: Logical Address: 30711 	 FN: 16128 Physical Address: 16375 	 Value: 61\nFA: Logical Address: 8800 	 FN: 46336 Physical Address: 46432 	 Value: 0\nFA: Logical Address: 52335 	 FN: 46592 Physical Address: 46703 	 Value: 27\nFA: Logical Address: 38775 	 FN: 46848 Physical Address: 46967 	 Value: -35\nPT: Logical Address: 52704 	 FN: 29952 Physical Address: 30176 	 Value: 0\nPT: Logical Address: 24380 	 FN: 1536 Physical Address: 1596 	 Value: 0\nPT: Logical Address: 19602 	 FN: 22528 Physical Address: 22674 	 Value: 37\nPT: Logical Address: 57998 	 FN: 3072 Physical Address: 3214 	 Value: 37\nPT: Logical Address: 2919 	 FN: 11520 Physical Address: 11623 	 Value: -39\nFA: Logical Address: 8362 	 FN: 47104 Physical Address: 47274 	 Value: 8\nPT: Logical Address: 17884 	 FN: 9728 Physical Address: 9948 	 Value: 0\nPT: Logical Address: 45737 	 FN: 7680 Physical Address: 7849 	 Value: 0\nPT: Logical Address: 47894 	 FN: 25600 Physical Address: 25622 	 Value: 8\nFA: Logical Address: 59667 	 FN: 47360 Physical Address: 47379 	 Value: 68\nPT: Logical Address: 10385 	 FN: 14592 Physical Address: 14737 	 Value: 0\nFA: Logical Address: 52782 	 FN: 47616 Physical Address: 47662 	 Value: 51\nPT: Logical Address: 64416 	 FN: 4864 Physical Address: 5024 	 Value: 0\nPT: Logical Address: 40946 	 FN: 8192 Physical Address: 8434 	 Value: 51\nFA: Logical Address: 16778 	 FN: 47872 Physical Address: 48010 	 Value: 16\nPT: Logical Address: 27159 	 FN: 28672 Physical Address: 28695 	 Value: 69\nPT: Logical Address: 24324 	 FN: 1536 Physical Address: 1540 	 Value: 0\nPT: Logical Address: 32450 	 FN: 6912 Physical Address: 7106 	 Value: 16\nFA: Logical Address: 9108 	 FN: 48128 Physical Address: 48276 	 Value: 0\nPT: Logical Address: 65305 	 FN: 30464 Physical Address: 30489 	 Value: 0\nPT: Logical Address: 19575 	 FN: 22528 Physical Address: 22647 	 Value: -35\nPT: Logical Address: 11117 	 FN: 39936 Physical Address: 40045 	 Value: 0\nFA: Logical Address: 65170 	 FN: 48384 Physical Address: 48530 	 Value: 63\nPT: Logical Address: 58013 	 FN: 3072 Physical Address: 3229 	 Value: 0\nPT: Logical Address: 61676 	 FN: 23040 Physical Address: 23276 	 Value: 0\nPT: Logical Address: 63510 	 FN: 28160 Physical Address: 28182 	 Value: 63\nPT: Logical Address: 17458 	 FN: 40960 Physical Address: 41010 	 Value: 63\nFA: Logical Address: 54675 	 FN: 48640 Physical Address: 48787 	 Value: 100\nPT: Logical Address: 1713 	 FN: 43520 Physical Address: 43697 	 Value: 0\nPT: Logical Address: 55105 	 FN: 5120 Physical Address: 5185 	 Value: 0\nPT: Logical Address: 65321 	 FN: 30464 Physical Address: 30505 	 Value: 0\nFA: Logical Address: 45278 	 FN: 48896 Physical Address: 49118 	 Value: 44\nFA: Logical Address: 26256 	 FN: 49152 Physical Address: 49296 	 Value: 0\nPT: Logical Address: 64198 	 FN: 4352 Physical Address: 4550 	 Value: 25\nFA: Logical Address: 29441 	 FN: 49408 Physical Address: 49409 	 Value: 0\nPT: Logical Address: 1928 	 FN: 33024 Physical Address: 33160 	 Value: 0\nPT: Logical Address: 39425 	 FN: 43264 Physical Address: 43265 	 Value: 0\nFA: Logical Address: 32000 	 FN: 49664 Physical Address: 49664 	 Value: 0\nPT: Logical Address: 28549 	 FN: 27904 Physical Address: 28037 	 Value: 0\nFA: Logical Address: 46295 	 FN: 49920 Physical Address: 50135 	 Value: 53\nPT: Logical Address: 22772 	 FN: 2816 Physical Address: 3060 	 Value: 0\nPT: Logical Address: 58228 	 FN: 34048 Physical Address: 34164 	 Value: 0\nPT: Logical Address: 63525 	 FN: 28160 Physical Address: 28197 	 Value: 0\nPT: Logical Address: 32602 	 FN: 9472 Physical Address: 9562 	 Value: 45\nPT: Logical Address: 46195 	 FN: 49920 Physical Address: 50035 	 Value: 28\nPT: Logical Address: 55849 	 FN: 34560 Physical Address: 34601 	 Value: 0\nFA: Logical Address: 46454 	 FN: 50176 Physical Address: 50294 	 Value: 45\nPT: Logical Address: 7487 	 FN: 6144 Physical Address: 6207 	 Value: 79\nPT: Logical Address: 33879 	 FN: 41984 Physical Address: 42071 	 Value: 85\nPT: Logical Address: 42004 	 FN: 46080 Physical Address: 46100 	 Value: 0\nPT: Logical Address: 8599 	 FN: 19968 Physical Address: 20119 	 Value: 101\nPT: Logical Address: 18641 	 FN: 5376 Physical Address: 5585 	 Value: 0\nFA: Logical Address: 49015 	 FN: 50432 Physical Address: 50551 	 Value: -35\nPT: Logical Address: 26830 	 FN: 42496 Physical Address: 42702 	 Value: 47\nPT: Logical Address: 34754 	 FN: 17920 Physical Address: 18114 	 Value: 47\nPT: Logical Address: 14668 	 FN: 33280 Physical Address: 33356 	 Value: 0\nPT: Logical Address: 38362 	 FN: 20224 Physical Address: 20442 	 Value: 47\nPT: Logical Address: 38791 	 FN: 46848 Physical Address: 46983 	 Value: -31\nFA: Logical Address: 4171 	 FN: 50688 Physical Address: 50763 	 Value: 18\nFA: Logical Address: 45975 	 FN: 50944 Physical Address: 51095 	 Value: -27\nPT: Logical Address: 14623 	 FN: 33280 Physical Address: 33311 	 Value: -57\nPT: Logical Address: 62393 	 FN: 23808 Physical Address: 23993 	 Value: 0\nPT: Logical Address: 64658 	 FN: 6400 Physical Address: 6546 	 Value: 44\nPT: Logical Address: 10963 	 FN: 12288 Physical Address: 12499 	 Value: -12\nPT: Logical Address: 9058 	 FN: 48128 Physical Address: 48226 	 Value: 44\nPT: Logical Address: 51031 	 FN: 42752 Physical Address: 42839 	 Value: -43\nPT: Logical Address: 32425 	 FN: 6912 Physical Address: 7081 	 Value: 0\nPT: Logical Address: 45483 	 FN: 45824 Physical Address: 45995 	 Value: -22\nPT: Logical Address: 44611 	 FN: 11008 Physical Address: 11075 	 Value: -48\nPT: Logical Address: 63664 	 FN: 28160 Physical Address: 28336 	 Value: 0\nPT: Logical Address: 54920 	 FN: 3584 Physical Address: 3720 	 Value: 0\nPT: Logical Address: 7663 	 FN: 6144 Physical Address: 6383 	 Value: -5\nFA: Logical Address: 56480 	 FN: 51200 Physical Address: 51360 	 Value: 0\nFA: Logical Address: 1489 	 FN: 51456 Physical Address: 51665 	 Value: 0\nPT: Logical Address: 28438 	 FN: 27904 Physical Address: 27926 	 Value: 1\nPT: Logical Address: 65449 	 FN: 30464 Physical Address: 30633 	 Value: 0\nPT: Logical Address: 12441 	 FN: 45056 Physical Address: 45209 	 Value: 0\nPT: Logical Address: 58530 	 FN: 15360 Physical Address: 15522 	 Value: 1\nPT: Logical Address: 63570 	 FN: 28160 Physical Address: 28242 	 Value: 1\nPT: Logical Address: 26251 	 FN: 49152 Physical Address: 49291 	 Value: 98\nPT: Logical Address: 15972 	 FN: 20992 Physical Address: 21092 	 Value: 0\nPT: Logical Address: 35826 	 FN: 43776 Physical Address: 44018 	 Value: 1\nPT: Logical Address: 5491 	 FN: 21504 Physical Address: 21619 	 Value: 92\nFA: Logical Address: 54253 	 FN: 51712 Physical Address: 51949 	 Value: 0\nPT: Logical Address: 49655 	 FN: 45312 Physical Address: 45559 	 Value: -3\nFA: Logical Address: 5868 	 FN: 51968 Physical Address: 52204 	 Value: 0\nPT: Logical Address: 20163 	 FN: 40448 Physical Address: 40643 	 Value: -80\nPT: Logical Address: 51079 	 FN: 42752 Physical Address: 42887 	 Value: -95\nPT: Logical Address: 21398 	 FN: 8960 Physical Address: 9110 	 Value: 5\nPT: Logical Address: 32756 	 FN: 9472 Physical Address: 9716 	 Value: 0\nPT: Logical Address: 64196 	 FN: 4352 Physical Address: 4548 	 Value: 0\nPT: Logical Address: 43218 	 FN: 17408 Physical Address: 17618 	 Value: 5\nFA: Logical Address: 21583 	 FN: 52224 Physical Address: 52303 	 Value: 19\nFA: Logical Address: 25086 	 FN: 52480 Physical Address: 52734 	 Value: 24\nPT: Logical Address: 45515 	 FN: 45824 Physical Address: 46027 	 Value: 114\nPT: Logical Address: 12893 	 FN: 30208 Physical Address: 30301 	 Value: 0\nFA: Logical Address: 22914 	 FN: 52736 Physical Address: 52866 	 Value: 22\nPT: Logical Address: 58969 	 FN: 14848 Physical Address: 14937 	 Value: 0\nPT: Logical Address: 20094 	 FN: 40448 Physical Address: 40574 	 Value: 22\nFA: Logical Address: 13730 	 FN: 52992 Physical Address: 53154 	 Value: 13\nFA: Logical Address: 44059 	 FN: 53248 Physical Address: 53275 	 Value: 6\nPT: Logical Address: 28931 	 FN: 16384 Physical Address: 16387 	 Value: 0\nPT: Logical Address: 13533 	 FN: 36096 Physical Address: 36317 	 Value: 0\nFA: Logical Address: 33134 	 FN: 53504 Physical Address: 53614 	 Value: 32\nPT: Logical Address: 28483 	 FN: 27904 Physical Address: 27971 	 Value: 80\nPT: Logical Address: 1220 	 FN: 40704 Physical Address: 40900 	 Value: 0\nPT: Logical Address: 38174 	 FN: 20224 Physical Address: 20254 	 Value: 32\nPT: Logical Address: 53502 	 FN: 35328 Physical Address: 35582 	 Value: 32\nPT: Logical Address: 43328 	 FN: 29440 Physical Address: 29504 	 Value: 0\nPT: Logical Address: 4970 	 FN: 13568 Physical Address: 13674 	 Value: 32\nPT: Logical Address: 8090 	 FN: 33792 Physical Address: 33946 	 Value: 32\nFA: Logical Address: 2661 	 FN: 53760 Physical Address: 53861 	 Value: 0\nFA: Logical Address: 53903 	 FN: 54016 Physical Address: 54159 	 Value: -93\nPT: Logical Address: 11025 	 FN: 39936 Physical Address: 39953 	 Value: 0\nPT: Logical Address: 26627 	 FN: 42496 Physical Address: 42499 	 Value: -128\nPT: Logical Address: 18117 	 FN: 18688 Physical Address: 18885 	 Value: 0\nPT: Logical Address: 14505 	 FN: 5632 Physical Address: 5801 	 Value: 0\nPT: Logical Address: 61528 	 FN: 23040 Physical Address: 23128 	 Value: 0\nPT: Logical Address: 20423 	 FN: 16640 Physical Address: 16839 	 Value: -79\nPT: Logical Address: 26962 	 FN: 26880 Physical Address: 26962 	 Value: 52\nPT: Logical Address: 36392 	 FN: 14336 Physical Address: 14376 	 Value: 0\nFA: Logical Address: 11365 	 FN: 54272 Physical Address: 54373 	 Value: 0\nPT: Logical Address: 50882 	 FN: 26112 Physical Address: 26306 	 Value: 11\nPT: Logical Address: 41668 	 FN: 41728 Physical Address: 41924 	 Value: 0\nPT: Logical Address: 30497 	 FN: 16128 Physical Address: 16161 	 Value: 0\nFA: Logical Address: 36216 	 FN: 54528 Physical Address: 54648 	 Value: 0\nPT: Logical Address: 5619 	 FN: 21504 Physical Address: 21747 	 Value: 124\nPT: Logical Address: 36983 	 FN: 18176 Physical Address: 18295 	 Value: 93\nPT: Logical Address: 59557 	 FN: 25856 Physical Address: 26021 	 Value: 0\nPT: Logical Address: 36663 	 FN: 35584 Physical Address: 35639 	 Value: 77\nPT: Logical Address: 36436 	 FN: 14336 Physical Address: 14420 	 Value: 0\nPT: Logical Address: 37057 	 FN: 18176 Physical Address: 18369 	 Value: 0\nFA: Logical Address: 23585 	 FN: 54784 Physical Address: 54817 	 Value: 0\nFA: Logical Address: 58791 	 FN: 55040 Physical Address: 55207 	 Value: 105\nFA: Logical Address: 46666 	 FN: 55296 Physical Address: 55370 	 Value: 45\nPT: Logical Address: 64475 	 FN: 4864 Physical Address: 5083 	 Value: -74\nPT: Logical Address: 21615 	 FN: 52224 Physical Address: 52335 	 Value: -101\nPT: Logical Address: 41090 	 FN: 8704 Physical Address: 8834 	 Value: 45\nPT: Logical Address: 1771 	 FN: 43520 Physical Address: 43755 	 Value: -70\nPT: Logical Address: 47513 	 FN: 32000 Physical Address: 32153 	 Value: 0\nFA: Logical Address: 39338 	 FN: 55552 Physical Address: 55722 	 Value: 38\nPT: Logical Address: 1390 	 FN: 51456 Physical Address: 51566 	 Value: 38\nPT: Logical Address: 38772 	 FN: 46848 Physical Address: 46964 	 Value: 0\nPT: Logical Address: 58149 	 FN: 34048 Physical Address: 34085 	 Value: 0\nPT: Logical Address: 7196 	 FN: 43008 Physical Address: 43036 	 Value: 0\nPT: Logical Address: 9123 	 FN: 48128 Physical Address: 48291 	 Value: 104\nPT: Logical Address: 7491 	 FN: 6144 Physical Address: 6211 	 Value: 80\nPT: Logical Address: 62616 	 FN: 256 Physical Address: 408 	 Value: 0\nPT: Logical Address: 15436 	 FN: 31744 Physical Address: 31820 	 Value: 0\nPT: Logical Address: 17491 	 FN: 40960 Physical Address: 41043 	 Value: 84\nPT: Logical Address: 53656 	 FN: 768 Physical Address: 920 	 Value: 0\nPT: Logical Address: 26449 	 FN: 24320 Physical Address: 24401 	 Value: 0\nPT: Logical Address: 34935 	 FN: 26624 Physical Address: 26743 	 Value: 93\nPT: Logical Address: 19864 	 FN: 36352 Physical Address: 36504 	 Value: 0\nPT: Logical Address: 51388 	 FN: 32512 Physical Address: 32700 	 Value: 0\nPT: Logical Address: 15155 	 FN: 32256 Physical Address: 32307 	 Value: 76\nPT: Logical Address: 64775 	 FN: 2048 Physical Address: 2055 	 Value: 65\nPT: Logical Address: 47969 	 FN: 25600 Physical Address: 25697 	 Value: 0\nFA: Logical Address: 16315 	 FN: 55808 Physical Address: 55995 	 Value: -18\nPT: Logical Address: 1342 	 FN: 51456 Physical Address: 51518 	 Value: 15\nPT: Logical Address: 51185 	 FN: 42752 Physical Address: 42993 	 Value: 0\nPT: Logical Address: 6043 	 FN: 9216 Physical Address: 9371 	 Value: -26\nPT: Logical Address: 21398 	 FN: 8960 Physical Address: 9110 	 Value: 15\nPT: Logical Address: 3273 	 FN: 40192 Physical Address: 40393 	 Value: 0\nPT: Logical Address: 9370 	 FN: 22784 Physical Address: 22938 	 Value: 15\nFA: Logical Address: 35463 	 FN: 56064 Physical Address: 56199 	 Value: -95\nPT: Logical Address: 28205 	 FN: 34816 Physical Address: 34861 	 Value: 0\nPT: Logical Address: 2351 	 FN: 4608 Physical Address: 4655 	 Value: -117\nPT: Logical Address: 28999 	 FN: 16384 Physical Address: 16455 	 Value: -111\nFA: Logical Address: 47699 	 FN: 56320 Physical Address: 56403 	 Value: -108\nPT: Logical Address: 46870 	 FN: 19712 Physical Address: 19734 	 Value: 46\nPT: Logical Address: 22311 	 FN: 11264 Physical Address: 11303 	 Value: -119\nFA: Logical Address: 22124 	 FN: 56576 Physical Address: 56684 	 Value: 0\nPT: Logical Address: 22427 	 FN: 11264 Physical Address: 11419 	 Value: -90\nPT: Logical Address: 49344 	 FN: 8448 Physical Address: 8640 	 Value: 0\nPT: Logical Address: 23224 	 FN: 35840 Physical Address: 36024 	 Value: 0\nPT: Logical Address: 5514 	 FN: 21504 Physical Address: 21642 	 Value: 21\nFA: Logical Address: 20504 	 FN: 56832 Physical Address: 56856 	 Value: 0\nFA: Logical Address: 376 	 FN: 57088 Physical Address: 57208 	 Value: 0\nPT: Logical Address: 2014 	 FN: 33024 Physical Address: 33246 	 Value: 0\nPT: Logical Address: 38700 	 FN: 46848 Physical Address: 46892 	 Value: 0\nPT: Logical Address: 13098 	 FN: 44288 Physical Address: 44330 	 Value: 0\nPT: Logical Address: 62435 	 FN: 23808 Physical Address: 24035 	 Value: 120\nPT: Logical Address: 48046 	 FN: 25600 Physical Address: 25774 	 Value: 0\nPT: Logical Address: 63464 	 FN: 16896 Physical Address: 17128 	 Value: 0\nPT: Logical Address: 12798 	 FN: 30976 Physical Address: 31230 	 Value: 0\nPT: Logical Address: 51178 	 FN: 42752 Physical Address: 42986 	 Value: 0\nPT: Logical Address: 8627 	 FN: 19968 Physical Address: 20147 	 Value: 108\nPT: Logical Address: 27083 	 FN: 26880 Physical Address: 27083 	 Value: 114\nPT: Logical Address: 47198 	 FN: 29696 Physical Address: 29790 	 Value: 0\nFA: Logical Address: 44021 	 FN: 57344 Physical Address: 57589 	 Value: 0\nPT: Logical Address: 32792 	 FN: 4096 Physical Address: 4120 	 Value: 0\nPT: Logical Address: 43996 	 FN: 57344 Physical Address: 57564 	 Value: 0\nPT: Logical Address: 41126 	 FN: 8704 Physical Address: 8870 	 Value: 42\nPT: Logical Address: 64244 	 FN: 4352 Physical Address: 4596 	 Value: 0\nPT: Logical Address: 37047 	 FN: 18176 Physical Address: 18359 	 Value: -19\nFA: Logical Address: 60281 	 FN: 57600 Physical Address: 57721 	 Value: 0\nPT: Logical Address: 52904 	 FN: 47616 Physical Address: 47784 	 Value: 0\nFA: Logical Address: 7768 	 FN: 57856 Physical Address: 57944 	 Value: 0\nFA: Logical Address: 55359 	 FN: 58112 Physical Address: 58175 	 Value: 15\nPT: Logical Address: 3230 	 FN: 40192 Physical Address: 40350 	 Value: 54\nPT: Logical Address: 44813 	 FN: 13056 Physical Address: 13069 	 Value: 0\nPT: Logical Address: 4116 	 FN: 50688 Physical Address: 50708 	 Value: 0\nPT: Logical Address: 65222 	 FN: 48384 Physical Address: 48582 	 Value: 54\nPT: Logical Address: 28083 	 FN: 3328 Physical Address: 3507 	 Value: 44\nPT: Logical Address: 60660 	 FN: 7168 Physical Address: 7412 	 Value: 0\nFA: Logical Address: 39 	 FN: 58368 Physical Address: 58407 	 Value: 9\nPT: Logical Address: 328 	 FN: 57088 Physical Address: 57160 	 Value: 0\nPT: Logical Address: 47868 	 FN: 56320 Physical Address: 56572 	 Value: 0\nPT: Logical Address: 13009 	 FN: 30208 Physical Address: 30417 	 Value: 0\nPT: Logical Address: 22378 	 FN: 11264 Physical Address: 11370 	 Value: 0\nPT: Logical Address: 39304 	 FN: 55552 Physical Address: 55688 	 Value: 0\nPT: Logical Address: 11171 	 FN: 39936 Physical Address: 40099 	 Value: 40\nPT: Logical Address: 8079 	 FN: 33792 Physical Address: 33935 	 Value: 35\nPT: Logical Address: 52879 	 FN: 47616 Physical Address: 47759 	 Value: 35\nPT: Logical Address: 5123 	 FN: 15104 Physical Address: 15107 	 Value: 0\nFA: Logical Address: 4356 	 FN: 58624 Physical Address: 58628 	 Value: 0\nPT: Logical Address: 45745 	 FN: 7680 Physical Address: 7857 	 Value: 0\nPT: Logical Address: 32952 	 FN: 4096 Physical Address: 4280 	 Value: 0\nPT: Logical Address: 4657 	 FN: 27648 Physical Address: 27697 	 Value: 0\nPT: Logical Address: 24142 	 FN: 33536 Physical Address: 33614 	 Value: 4\nPT: Logical Address: 23319 	 FN: 20480 Physical Address: 20503 	 Value: 69\nPT: Logical Address: 13607 	 FN: 52992 Physical Address: 53031 	 Value: 73\nPT: Logical Address: 46304 	 FN: 49920 Physical Address: 50144 	 Value: 0\nPT: Logical Address: 17677 	 FN: 9728 Physical Address: 9741 	 Value: 0\nPT: Logical Address: 59691 	 FN: 47360 Physical Address: 47403 	 Value: 74\nPT: Logical Address: 50967 	 FN: 42752 Physical Address: 42775 	 Value: 69\nPT: Logical Address: 7817 	 FN: 57856 Physical Address: 57993 	 Value: 0\nPT: Logical Address: 8545 	 FN: 19968 Physical Address: 20065 	 Value: 0\nPT: Logical Address: 55297 	 FN: 58112 Physical Address: 58113 	 Value: 0\nPT: Logical Address: 52954 	 FN: 47616 Physical Address: 47834 	 Value: 4\nPT: Logical Address: 39720 	 FN: 38144 Physical Address: 38184 	 Value: 0\nPT: Logical Address: 18455 	 FN: 5376 Physical Address: 5399 	 Value: 69\nFA: Logical Address: 30349 	 FN: 58880 Physical Address: 59021 	 Value: 0\nPT: Logical Address: 63270 	 FN: 16896 Physical Address: 16934 	 Value: 29\nPT: Logical Address: 27156 	 FN: 28672 Physical Address: 28692 	 Value: 0\nPT: Logical Address: 20614 	 FN: 56832 Physical Address: 56966 	 Value: 29\nPT: Logical Address: 19372 	 FN: 14080 Physical Address: 14252 	 Value: 0\nPT: Logical Address: 48689 	 FN: 32768 Physical Address: 32817 	 Value: 0\nPT: Logical Address: 49386 	 FN: 8448 Physical Address: 8682 	 Value: 29\nPT: Logical Address: 50584 	 FN: 18432 Physical Address: 18584 	 Value: 0\nPT: Logical Address: 51936 	 FN: 27136 Physical Address: 27360 	 Value: 0\nPT: Logical Address: 34705 	 FN: 17920 Physical Address: 18065 	 Value: 0\nPT: Logical Address: 13653 	 FN: 52992 Physical Address: 53077 	 Value: 0\nFA: Logical Address: 50077 	 FN: 59136 Physical Address: 59293 	 Value: 0\nPT: Logical Address: 54518 	 FN: 19200 Physical Address: 19446 	 Value: 48\nPT: Logical Address: 41482 	 FN: 41728 Physical Address: 41738 	 Value: 48\nPT: Logical Address: 4169 	 FN: 50688 Physical Address: 50761 	 Value: 0\nPT: Logical Address: 36118 	 FN: 54528 Physical Address: 54550 	 Value: 48\nFA: Logical Address: 9584 	 FN: 59392 Physical Address: 59504 	 Value: 0\nPT: Logical Address: 18490 	 FN: 5376 Physical Address: 5434 	 Value: 9\nPT: Logical Address: 55420 	 FN: 58112 Physical Address: 58236 	 Value: 0\nPT: Logical Address: 5708 	 FN: 51968 Physical Address: 52044 	 Value: 0\nPT: Logical Address: 23506 	 FN: 20480 Physical Address: 20690 	 Value: 9\nPT: Logical Address: 15391 	 FN: 31744 Physical Address: 31775 	 Value: 71\nPT: Logical Address: 36368 	 FN: 14336 Physical Address: 14352 	 Value: 0\nPT: Logical Address: 38976 	 FN: 3840 Physical Address: 3904 	 Value: 0\nPT: Logical Address: 50406 	 FN: 13824 Physical Address: 14054 	 Value: 9\nPT: Logical Address: 49236 	 FN: 8448 Physical Address: 8532 	 Value: 0\nPT: Logical Address: 65035 	 FN: 48384 Physical Address: 48395 	 Value: 66\nPT: Logical Address: 30120 	 FN: 512 Physical Address: 680 	 Value: 0\nPT: Logical Address: 62551 	 FN: 256 Physical Address: 343 	 Value: 85\nPT: Logical Address: 46809 	 FN: 55296 Physical Address: 55513 	 Value: 0\nPT: Logical Address: 21687 	 FN: 52224 Physical Address: 52407 	 Value: 109\nPT: Logical Address: 53839 	 FN: 54016 Physical Address: 54095 	 Value: 83\nPT: Logical Address: 2098 	 FN: 35072 Physical Address: 35122 	 Value: 9\nPT: Logical Address: 12364 	 FN: 45056 Physical Address: 45132 	 Value: 0\nPT: Logical Address: 45366 	 FN: 45824 Physical Address: 45878 	 Value: 9\nPT: Logical Address: 50437 	 FN: 18432 Physical Address: 18437 	 Value: 0\nPT: Logical Address: 36675 	 FN: 35584 Physical Address: 35651 	 Value: 80\nPT: Logical Address: 55382 	 FN: 58112 Physical Address: 58198 	 Value: 9\nFA: Logical Address: 11846 	 FN: 59648 Physical Address: 59718 	 Value: 11\nPT: Logical Address: 49127 	 FN: 50432 Physical Address: 50663 	 Value: -71\nPT: Logical Address: 19900 	 FN: 36352 Physical Address: 36540 	 Value: 0\nPT: Logical Address: 20554 	 FN: 56832 Physical Address: 56906 	 Value: 11\nPT: Logical Address: 19219 	 FN: 14080 Physical Address: 14099 	 Value: -124\nPT: Logical Address: 51483 	 FN: 15872 Physical Address: 15899 	 Value: -122\nPT: Logical Address: 58090 	 FN: 3072 Physical Address: 3306 	 Value: 11\nPT: Logical Address: 39074 	 FN: 3840 Physical Address: 4002 	 Value: 11\nPT: Logical Address: 16060 	 FN: 20992 Physical Address: 21180 	 Value: 0\nPT: Logical Address: 10447 	 FN: 14592 Physical Address: 14799 	 Value: -77\nPT: Logical Address: 54169 	 FN: 51712 Physical Address: 51865 	 Value: 0\nPT: Logical Address: 20634 	 FN: 56832 Physical Address: 56986 	 Value: 11\nPT: Logical Address: 57555 	 FN: 37888 Physical Address: 38099 	 Value: -76\nPT: Logical Address: 61210 	 FN: 42240 Physical Address: 42266 	 Value: 11\nPT: Logical Address: 269 	 FN: 57088 Physical Address: 57101 	 Value: 0\nPT: Logical Address: 33154 	 FN: 53504 Physical Address: 53634 	 Value: 11\nPT: Logical Address: 64487 	 FN: 4864 Physical Address: 5095 	 Value: -71\nPT: Logical Address: 61223 	 FN: 42240 Physical Address: 42279 	 Value: -119\nPT: Logical Address: 47292 	 FN: 29696 Physical Address: 29884 	 Value: 0\nPT: Logical Address: 21852 	 FN: 24064 Physical Address: 24156 	 Value: 0\nPT: Logical Address: 5281 	 FN: 15104 Physical Address: 15265 	 Value: 0\nPT: Logical Address: 45912 	 FN: 50944 Physical Address: 51032 	 Value: 0\nPT: Logical Address: 32532 	 FN: 9472 Physical Address: 9492 	 Value: 0\nPT: Logical Address: 63067 	 FN: 22016 Physical Address: 22107 	 Value: -106\nPT: Logical Address: 41683 	 FN: 41728 Physical Address: 41939 	 Value: -76\nPT: Logical Address: 20981 	 FN: 38912 Physical Address: 39157 	 Value: 0\nPT: Logical Address: 33881 	 FN: 41984 Physical Address: 42073 	 Value: 0\nPT: Logical Address: 41785 	 FN: 38656 Physical Address: 38713 	 Value: 0\nPT: Logical Address: 4580 	 FN: 58624 Physical Address: 58852 	 Value: 0\nPT: Logical Address: 41389 	 FN: 24832 Physical Address: 25005 	 Value: 0\nPT: Logical Address: 28572 	 FN: 27904 Physical Address: 28060 	 Value: 0\nPT: Logical Address: 782 	 FN: 7936 Physical Address: 7950 	 Value: 11\nPT: Logical Address: 30273 	 FN: 58880 Physical Address: 58945 	 Value: 0\nPT: Logical Address: 62267 	 FN: 23808 Physical Address: 23867 	 Value: -114\nPT: Logical Address: 17922 	 FN: 18688 Physical Address: 18690 	 Value: 11\nPT: Logical Address: 63238 	 FN: 16896 Physical Address: 16902 	 Value: 11\nPT: Logical Address: 3308 	 FN: 40192 Physical Address: 40428 	 Value: 0\nPT: Logical Address: 26545 	 FN: 24320 Physical Address: 24497 	 Value: 0\nPT: Logical Address: 44395 	 FN: 44800 Physical Address: 44907 	 Value: -102\nPT: Logical Address: 39120 	 FN: 3840 Physical Address: 4048 	 Value: 0\nPT: Logical Address: 21706 	 FN: 52224 Physical Address: 52426 	 Value: 11\nPT: Logical Address: 7144 	 FN: 26368 Physical Address: 26600 	 Value: 0\nPT: Logical Address: 30244 	 FN: 58880 Physical Address: 58916 	 Value: 0\nPT: Logical Address: 3725 	 FN: 9984 Physical Address: 10125 	 Value: 0\nPT: Logical Address: 54632 	 FN: 48640 Physical Address: 48744 	 Value: 0\nPT: Logical Address: 30574 	 FN: 16128 Physical Address: 16238 	 Value: 11\nPT: Logical Address: 8473 	 FN: 19968 Physical Address: 19993 	 Value: 0\nPT: Logical Address: 12386 	 FN: 45056 Physical Address: 45154 	 Value: 11\nPT: Logical Address: 41114 	 FN: 8704 Physical Address: 8858 	 Value: 11\nPT: Logical Address: 57930 	 FN: 3072 Physical Address: 3146 	 Value: 11\nPT: Logical Address: 15341 	 FN: 32256 Physical Address: 32493 	 Value: 0\nPT: Logical Address: 15598 	 FN: 31744 Physical Address: 31982 	 Value: 11\nPT: Logical Address: 59922 	 FN: 10496 Physical Address: 10514 	 Value: 11\nPT: Logical Address: 18226 	 FN: 2304 Physical Address: 2354 	 Value: 11\nPT: Logical Address: 48162 	 FN: 17664 Physical Address: 17698 	 Value: 11\nPT: Logical Address: 41250 	 FN: 24832 Physical Address: 24866 	 Value: 11\nPT: Logical Address: 1512 	 FN: 51456 Physical Address: 51688 	 Value: 0\nPT: Logical Address: 2546 	 FN: 4608 Physical Address: 4850 	 Value: 11\nPT: Logical Address: 41682 	 FN: 41728 Physical Address: 41938 	 Value: 11\nPT: Logical Address: 322 	 FN: 57088 Physical Address: 57154 	 Value: 11\nPT: Logical Address: 880 	 FN: 7936 Physical Address: 8048 	 Value: 0\nPT: Logical Address: 20891 	 FN: 38912 Physical Address: 39067 	 Value: -90\nPT: Logical Address: 56604 	 FN: 13312 Physical Address: 13340 	 Value: 0\nPT: Logical Address: 40166 	 FN: 1024 Physical Address: 1254 	 Value: 11\nPT: Logical Address: 26791 	 FN: 42496 Physical Address: 42663 	 Value: -87\nPT: Logical Address: 44560 	 FN: 11008 Physical Address: 11024 	 Value: 0\nPT: Logical Address: 38698 	 FN: 46848 Physical Address: 46890 	 Value: 11\nPT: Logical Address: 64127 	 FN: 4352 Physical Address: 4479 	 Value: -97\nPT: Logical Address: 15028 	 FN: 24576 Physical Address: 24756 	 Value: 0\nPT: Logical Address: 38669 	 FN: 46848 Physical Address: 46861 	 Value: 0\nPT: Logical Address: 45637 	 FN: 7680 Physical Address: 7749 	 Value: 0\nPT: Logical Address: 43151 	 FN: 17408 Physical Address: 17551 	 Value: -93\nPT: Logical Address: 9465 	 FN: 22784 Physical Address: 23033 	 Value: 0\nPT: Logical Address: 2498 	 FN: 4608 Physical Address: 4802 	 Value: 11\nPT: Logical Address: 13978 	 FN: 31232 Physical Address: 31386 	 Value: 11\nPT: Logical Address: 16326 	 FN: 55808 Physical Address: 56006 	 Value: 11\nPT: Logical Address: 51442 	 FN: 32512 Physical Address: 32754 	 Value: 11\nPT: Logical Address: 34845 	 FN: 26624 Physical Address: 26653 	 Value: 0\nPT: Logical Address: 63667 	 FN: 28160 Physical Address: 28339 	 Value: -84\nPT: Logical Address: 39370 	 FN: 55552 Physical Address: 55754 	 Value: 11\nFA: Logical Address: 55671 	 FN: 59904 Physical Address: 60023 	 Value: 93\nPT: Logical Address: 64496 	 FN: 4864 Physical Address: 5104 	 Value: 0\nPT: Logical Address: 7767 	 FN: 57856 Physical Address: 57943 	 Value: 85\nPT: Logical Address: 6283 	 FN: 7424 Physical Address: 7563 	 Value: 98\nPT: Logical Address: 55884 	 FN: 34560 Physical Address: 34636 	 Value: 0\nPT: Logical Address: 61103 	 FN: 5888 Physical Address: 6063 	 Value: 107\nFA: Logical Address: 10184 	 FN: 60160 Physical Address: 60360 	 Value: 0\nPT: Logical Address: 39543 	 FN: 43264 Physical Address: 43383 	 Value: -35\nPT: Logical Address: 9555 	 FN: 59392 Physical Address: 59475 	 Value: -44\nPT: Logical Address: 13963 	 FN: 31232 Physical Address: 31371 	 Value: -30\nPT: Logical Address: 58975 	 FN: 14848 Physical Address: 14943 	 Value: -41\nPT: Logical Address: 19537 	 FN: 22528 Physical Address: 22609 	 Value: 0\nPT: Logical Address: 6101 	 FN: 9216 Physical Address: 9429 	 Value: 0\nPT: Logical Address: 41421 	 FN: 24832 Physical Address: 25037 	 Value: 0\nPT: Logical Address: 45502 	 FN: 45824 Physical Address: 46014 	 Value: 9\nPT: Logical Address: 29328 	 FN: 36864 Physical Address: 37008 	 Value: 0\nPT: Logical Address: 8149 	 FN: 33792 Physical Address: 34005 	 Value: 0\nFA: Logical Address: 25450 	 FN: 60416 Physical Address: 60522 	 Value: 24\nPT: Logical Address: 58944 	 FN: 14848 Physical Address: 14912 	 Value: 0\nPT: Logical Address: 50666 	 FN: 18432 Physical Address: 18666 	 Value: 24\nPT: Logical Address: 23084 	 FN: 35840 Physical Address: 35884 	 Value: 0\nPT: Logical Address: 36468 	 FN: 14336 Physical Address: 14452 	 Value: 0\nFA: Logical Address: 33645 	 FN: 60672 Physical Address: 60781 	 Value: 0\nPT: Logical Address: 25002 	 FN: 52480 Physical Address: 52650 	 Value: 32\nPT: Logical Address: 53715 	 FN: 768 Physical Address: 979 	 Value: -12\nPT: Logical Address: 60173 	 FN: 57600 Physical Address: 57613 	 Value: 0\nPT: Logical Address: 46354 	 FN: 50176 Physical Address: 50194 	 Value: 32\nPT: Logical Address: 4708 	 FN: 27648 Physical Address: 27748 	 Value: 0\nPT: Logical Address: 28208 	 FN: 34816 Physical Address: 34864 	 Value: 0\nPT: Logical Address: 58844 	 FN: 55040 Physical Address: 55260 	 Value: 0\nPT: Logical Address: 22173 	 FN: 56576 Physical Address: 56733 	 Value: 0\nPT: Logical Address: 8535 	 FN: 19968 Physical Address: 20055 	 Value: -43\nPT: Logical Address: 42261 	 FN: 10752 Physical Address: 10773 	 Value: 0\nPT: Logical Address: 29687 	 FN: 49408 Physical Address: 49655 	 Value: -3\nPT: Logical Address: 37799 	 FN: 29184 Physical Address: 29351 	 Value: -23\nPT: Logical Address: 22566 	 FN: 2816 Physical Address: 2854 	 Value: 32\nPT: Logical Address: 62520 	 FN: 256 Physical Address: 312 	 Value: 0\nPT: Logical Address: 4098 	 FN: 50688 Physical Address: 50690 	 Value: 32\nPT: Logical Address: 47999 	 FN: 25600 Physical Address: 25727 	 Value: -33\nPT: Logical Address: 49660 	 FN: 45312 Physical Address: 45564 	 Value: 0\nPT: Logical Address: 37063 	 FN: 18176 Physical Address: 18375 	 Value: -15\nPT: Logical Address: 41856 	 FN: 38656 Physical Address: 38784 	 Value: 0\nPT: Logical Address: 5417 	 FN: 21504 Physical Address: 21545 	 Value: 0\nPT: Logical Address: 48856 	 FN: 32768 Physical Address: 32984 	 Value: 0\nPT: Logical Address: 10682 	 FN: 27392 Physical Address: 27578 	 Value: 32\nPT: Logical Address: 22370 	 FN: 11264 Physical Address: 11362 	 Value: 32\nPT: Logical Address: 63281 	 FN: 16896 Physical Address: 16945 	 Value: 0\nPT: Logical Address: 62452 	 FN: 23808 Physical Address: 24052 	 Value: 0\nPT: Logical Address: 50532 	 FN: 18432 Physical Address: 18532 	 Value: 0\nPT: Logical Address: 9022 	 FN: 48128 Physical Address: 48190 	 Value: 32\nPT: Logical Address: 59300 	 FN: 10240 Physical Address: 10404 	 Value: 0\nPT: Logical Address: 58660 	 FN: 55040 Physical Address: 55076 	 Value: 0\nPT: Logical Address: 56401 	 FN: 51200 Physical Address: 51281 	 Value: 0\nPT: Logical Address: 8518 	 FN: 19968 Physical Address: 20038 	 Value: 32\nPT: Logical Address: 63066 	 FN: 22016 Physical Address: 22106 	 Value: 32\nPT: Logical Address: 63250 	 FN: 16896 Physical Address: 16914 	 Value: 32\nPT: Logical Address: 48592 	 FN: 1792 Physical Address: 2000 	 Value: 0\nPT: Logical Address: 28771 	 FN: 1280 Physical Address: 1379 	 Value: -40\nPT: Logical Address: 37673 	 FN: 29184 Physical Address: 29225 	 Value: 0\nPT: Logical Address: 60776 	 FN: 23552 Physical Address: 23656 	 Value: 0\nPT: Logical Address: 56438 	 FN: 51200 Physical Address: 51318 	 Value: 32\nPT: Logical Address: 60424 	 FN: 7168 Physical Address: 7176 	 Value: 0\nPT: Logical Address: 39993 	 FN: 1024 Physical Address: 1081 	 Value: 0\nPT: Logical Address: 56004 	 FN: 34560 Physical Address: 34756 	 Value: 0\nPT: Logical Address: 59002 	 FN: 14848 Physical Address: 14970 	 Value: 32\nPT: Logical Address: 33982 	 FN: 41984 Physical Address: 42174 	 Value: 32\nPT: Logical Address: 25498 	 FN: 60416 Physical Address: 60570 	 Value: 32\nPT: Logical Address: 57047 	 FN: 37376 Physical Address: 37591 	 Value: -11\nPT: Logical Address: 1401 	 FN: 51456 Physical Address: 51577 	 Value: 0\nPT: Logical Address: 15130 	 FN: 32256 Physical Address: 32282 	 Value: 32\nPT: Logical Address: 42960 	 FN: 19456 Physical Address: 19664 	 Value: 0\nPT: Logical Address: 61827 	 FN: 22272 Physical Address: 22403 	 Value: -32\nPT: Logical Address: 32442 	 FN: 6912 Physical Address: 7098 	 Value: 32\nPT: Logical Address: 64304 	 FN: 4864 Physical Address: 4912 	 Value: 0\nPT: Logical Address: 30273 	 FN: 58880 Physical Address: 58945 	 Value: 0\nPT: Logical Address: 38082 	 FN: 37120 Physical Address: 37314 	 Value: 32\nPT: Logical Address: 22404 	 FN: 11264 Physical Address: 11396 	 Value: 0\nPT: Logical Address: 3808 	 FN: 9984 Physical Address: 10208 	 Value: 0\nPT: Logical Address: 16883 	 FN: 47872 Physical Address: 48115 	 Value: -4\nPT: Logical Address: 23111 	 FN: 35840 Physical Address: 35911 	 Value: -47\nPT: Logical Address: 62417 	 FN: 23808 Physical Address: 24017 	 Value: 0\nPT: Logical Address: 60364 	 FN: 57600 Physical Address: 57804 	 Value: 0\nPT: Logical Address: 4542 	 FN: 58624 Physical Address: 58814 	 Value: 32\nPT: Logical Address: 14829 	 FN: 33280 Physical Address: 33517 	 Value: 0\nPT: Logical Address: 44964 	 FN: 13056 Physical Address: 13220 	 Value: 0\nPT: Logical Address: 33924 	 FN: 41984 Physical Address: 42116 	 Value: 0\nPT: Logical Address: 2141 	 FN: 35072 Physical Address: 35165 	 Value: 0\nPT: Logical Address: 19245 	 FN: 14080 Physical Address: 14125 	 Value: 0\nPT: Logical Address: 47168 	 FN: 29696 Physical Address: 29760 	 Value: 0\nPT: Logical Address: 24048 	 FN: 39424 Physical Address: 39664 	 Value: 0\nPT: Logical Address: 1022 	 FN: 7936 Physical Address: 8190 	 Value: 32\nPT: Logical Address: 23075 	 FN: 35840 Physical Address: 35875 	 Value: -56\nPT: Logical Address: 24888 	 FN: 52480 Physical Address: 52536 	 Value: 0\nPT: Logical Address: 49247 	 FN: 8448 Physical Address: 8543 	 Value: -41\nPT: Logical Address: 4900 	 FN: 13568 Physical Address: 13604 	 Value: 0\nPT: Logical Address: 22656 	 FN: 2816 Physical Address: 2944 	 Value: 0\nFA: Logical Address: 34117 	 FN: 60928 Physical Address: 60997 	 Value: 0\nPT: Logical Address: 55555 	 FN: 59904 Physical Address: 59907 	 Value: 64\nPT: Logical Address: 48947 	 FN: 50432 Physical Address: 50483 	 Value: 76\nPT: Logical Address: 59533 	 FN: 25856 Physical Address: 25997 	 Value: 0\nPT: Logical Address: 21312 	 FN: 8960 Physical Address: 9024 	 Value: 0\nPT: Logical Address: 21415 	 FN: 8960 Physical Address: 9127 	 Value: 105\nPT: Logical Address: 813 	 FN: 7936 Physical Address: 7981 	 Value: 0\nPT: Logical Address: 19419 	 FN: 14080 Physical Address: 14299 	 Value: 118\nPT: Logical Address: 1999 	 FN: 33024 Physical Address: 33231 	 Value: 115\nPT: Logical Address: 20155 	 FN: 40448 Physical Address: 40635 	 Value: 110\nPT: Logical Address: 21521 	 FN: 52224 Physical Address: 52241 	 Value: 0\nPT: Logical Address: 13670 	 FN: 52992 Physical Address: 53094 	 Value: 33\nPT: Logical Address: 19289 	 FN: 14080 Physical Address: 14169 	 Value: 0\nPT: Logical Address: 58483 	 FN: 15360 Physical Address: 15475 	 Value: 92\nPT: Logical Address: 41318 	 FN: 24832 Physical Address: 24934 	 Value: 33\nPT: Logical Address: 16151 	 FN: 55808 Physical Address: 55831 	 Value: 69\nPT: Logical Address: 13611 	 FN: 52992 Physical Address: 53035 	 Value: 74\nPT: Logical Address: 21514 	 FN: 52224 Physical Address: 52234 	 Value: 33\nPT: Logical Address: 13499 	 FN: 36096 Physical Address: 36283 	 Value: 110\nPT: Logical Address: 45583 	 FN: 7680 Physical Address: 7695 	 Value: 67\nPT: Logical Address: 49013 	 FN: 50432 Physical Address: 50549 	 Value: 0\nPT: Logical Address: 64843 	 FN: 2048 Physical Address: 2123 	 Value: 82\nPT: Logical Address: 63485 	 FN: 16896 Physical Address: 17149 	 Value: 0\nPT: Logical Address: 38697 	 FN: 46848 Physical Address: 46889 	 Value: 0\nPT: Logical Address: 59188 	 FN: 10240 Physical Address: 10292 	 Value: 0\nPT: Logical Address: 24593 	 FN: 38400 Physical Address: 38417 	 Value: 0\nFA: Logical Address: 57641 	 FN: 61184 Physical Address: 61225 	 Value: 0\nPT: Logical Address: 36524 	 FN: 14336 Physical Address: 14508 	 Value: 0\nPT: Logical Address: 56980 	 FN: 37376 Physical Address: 37524 	 Value: 0\nPT: Logical Address: 36810 	 FN: 35584 Physical Address: 35786 	 Value: 56\nPT: Logical Address: 6096 	 FN: 9216 Physical Address: 9424 	 Value: 0\nPT: Logical Address: 11070 	 FN: 39936 Physical Address: 39998 	 Value: 56\nPT: Logical Address: 60124 	 FN: 10496 Physical Address: 10716 	 Value: 0\nPT: Logical Address: 37576 	 FN: 21248 Physical Address: 21448 	 Value: 0\nPT: Logical Address: 15096 	 FN: 24576 Physical Address: 24824 	 Value: 0\nPT: Logical Address: 45247 	 FN: 48896 Physical Address: 49087 	 Value: 111\nPT: Logical Address: 32783 	 FN: 4096 Physical Address: 4111 	 Value: 67\nPT: Logical Address: 58390 	 FN: 15360 Physical Address: 15382 	 Value: 56\nPT: Logical Address: 60873 	 FN: 23552 Physical Address: 23753 	 Value: 0\nPT: Logical Address: 23719 	 FN: 54784 Physical Address: 54951 	 Value: 105\nPT: Logical Address: 24385 	 FN: 1536 Physical Address: 1601 	 Value: 0\nPT: Logical Address: 22307 	 FN: 11264 Physical Address: 11299 	 Value: 72\nFA: Logical Address: 17375 	 FN: 61440 Physical Address: 61663 	 Value: -9\nPT: Logical Address: 15990 	 FN: 20992 Physical Address: 21110 	 Value: 16\nPT: Logical Address: 20526 	 FN: 56832 Physical Address: 56878 	 Value: 16\nPT: Logical Address: 25904 	 FN: 36608 Physical Address: 36656 	 Value: 0\nPT: Logical Address: 42224 	 FN: 46080 Physical Address: 46320 	 Value: 0\nPT: Logical Address: 9311 	 FN: 22784 Physical Address: 22879 	 Value: -41\nPT: Logical Address: 7862 	 FN: 57856 Physical Address: 58038 	 Value: 16\nPT: Logical Address: 3835 	 FN: 9984 Physical Address: 10235 	 Value: -2\nPT: Logical Address: 30535 	 FN: 16128 Physical Address: 16199 	 Value: -47\nPT: Logical Address: 65179 	 FN: 48384 Physical Address: 48539 	 Value: -26\nPT: Logical Address: 57387 	 FN: 37888 Physical Address: 37931 	 Value: -54\nPT: Logical Address: 63579 	 FN: 28160 Physical Address: 28251 	 Value: -42\nPT: Logical Address: 4946 	 FN: 13568 Physical Address: 13650 	 Value: 16\nPT: Logical Address: 9037 	 FN: 48128 Physical Address: 48205 	 Value: 0\nPT: Logical Address: 61033 	 FN: 5888 Physical Address: 5993 	 Value: 0\nPT: Logical Address: 55543 	 FN: 58112 Physical Address: 58359 	 Value: -3\nPT: Logical Address: 50361 	 FN: 13824 Physical Address: 14009 	 Value: 0\nPT: Logical Address: 6480 	 FN: 28928 Physical Address: 29008 	 Value: 0\nPT: Logical Address: 14042 	 FN: 31232 Physical Address: 31450 	 Value: 16\nPT: Logical Address: 21531 	 FN: 52224 Physical Address: 52251 	 Value: -58\nPT: Logical Address: 39195 	 FN: 55552 Physical Address: 55579 	 Value: -58\nPT: Logical Address: 37511 	 FN: 21248 Physical Address: 21383 	 Value: -31\nPT: Logical Address: 23696 	 FN: 54784 Physical Address: 54928 	 Value: 0\nPT: Logical Address: 27440 	 FN: 15616 Physical Address: 15664 	 Value: 0\nPT: Logical Address: 28201 	 FN: 34816 Physical Address: 34857 	 Value: 0\nPT: Logical Address: 23072 	 FN: 35840 Physical Address: 35872 	 Value: 0\nPT: Logical Address: 7814 	 FN: 57856 Physical Address: 57990 	 Value: 16\nPT: Logical Address: 6552 	 FN: 28928 Physical Address: 29080 	 Value: 0\nPT: Logical Address: 43637 	 FN: 12544 Physical Address: 12661 	 Value: 0\nPT: Logical Address: 35113 	 FN: 39680 Physical Address: 39721 	 Value: 0\nPT: Logical Address: 34890 	 FN: 26624 Physical Address: 26698 	 Value: 16\nPT: Logical Address: 61297 	 FN: 42240 Physical Address: 42353 	 Value: 0\nPT: Logical Address: 45633 	 FN: 7680 Physical Address: 7745 	 Value: 0\nPT: Logical Address: 61431 	 FN: 42240 Physical Address: 42487 	 Value: -3\nPT: Logical Address: 46032 	 FN: 50944 Physical Address: 51152 	 Value: 0\nFA: Logical Address: 18774 	 FN: 61696 Physical Address: 61782 	 Value: 18\nPT: Logical Address: 62991 	 FN: 22016 Physical Address: 22031 	 Value: 67\nPT: Logical Address: 28059 	 FN: 3328 Physical Address: 3483 	 Value: 102\nPT: Logical Address: 35229 	 FN: 39680 Physical Address: 39837 	 Value: 0\nPT: Logical Address: 51230 	 FN: 32512 Physical Address: 32542 	 Value: 18\nPT: Logical Address: 14405 	 FN: 5632 Physical Address: 5701 	 Value: 0\nPT: Logical Address: 52242 	 FN: 46592 Physical Address: 46610 	 Value: 18\nPT: Logical Address: 43153 	 FN: 17408 Physical Address: 17553 	 Value: 0\nPT: Logical Address: 2709 	 FN: 53760 Physical Address: 53909 	 Value: 0\nPT: Logical Address: 47963 	 FN: 25600 Physical Address: 25691 	 Value: 86\nPT: Logical Address: 36943 	 FN: 18176 Physical Address: 18255 	 Value: 83\nPT: Logical Address: 54066 	 FN: 51712 Physical Address: 51762 	 Value: 18\nPT: Logical Address: 10054 	 FN: 60160 Physical Address: 60230 	 Value: 18\nPT: Logical Address: 43051 	 FN: 17408 Physical Address: 17451 	 Value: 74\nPT: Logical Address: 11525 	 FN: 41472 Physical Address: 41477 	 Value: 0\nPT: Logical Address: 17684 	 FN: 9728 Physical Address: 9748 	 Value: 0\nPT: Logical Address: 41681 	 FN: 41728 Physical Address: 41937 	 Value: 0\nPT: Logical Address: 27883 	 FN: 44032 Physical Address: 44267 	 Value: 122\nPT: Logical Address: 56909 	 FN: 37376 Physical Address: 37453 	 Value: 0\nPT: Logical Address: 45772 	 FN: 7680 Physical Address: 7884 	 Value: 0\nPT: Logical Address: 27496 	 FN: 15616 Physical Address: 15720 	 Value: 0\nPT: Logical Address: 46842 	 FN: 55296 Physical Address: 55546 	 Value: 18\nPT: Logical Address: 38734 	 FN: 46848 Physical Address: 46926 	 Value: 18\nPT: Logical Address: 28972 	 FN: 16384 Physical Address: 16428 	 Value: 0\nPT: Logical Address: 59684 	 FN: 47360 Physical Address: 47396 	 Value: 0\nPT: Logical Address: 11384 	 FN: 54272 Physical Address: 54392 	 Value: 0\nPT: Logical Address: 21018 	 FN: 37632 Physical Address: 37658 	 Value: 18\nPT: Logical Address: 2192 	 FN: 35072 Physical Address: 35216 	 Value: 0\nPT: Logical Address: 18384 	 FN: 2304 Physical Address: 2512 	 Value: 0\nPT: Logical Address: 13464 	 FN: 36096 Physical Address: 36248 	 Value: 0\nFA: Logical Address: 31018 	 FN: 61952 Physical Address: 61994 	 Value: 30\nPT: Logical Address: 62958 	 FN: 28416 Physical Address: 28654 	 Value: 30\nPT: Logical Address: 30611 	 FN: 16128 Physical Address: 16275 	 Value: 100\nPT: Logical Address: 1913 	 FN: 33024 Physical Address: 33145 	 Value: 0\nPT: Logical Address: 18904 	 FN: 61696 Physical Address: 61912 	 Value: 0\nPT: Logical Address: 26773 	 FN: 42496 Physical Address: 42645 	 Value: 0\nPT: Logical Address: 55491 	 FN: 58112 Physical Address: 58307 	 Value: 112\nPT: Logical Address: 21899 	 FN: 24064 Physical Address: 24203 	 Value: 98\nPT: Logical Address: 64413 	 FN: 4864 Physical Address: 5021 	 Value: 0\nPT: Logical Address: 47134 	 FN: 29696 Physical Address: 29726 	 Value: 30\nPT: Logical Address: 23172 	 FN: 35840 Physical Address: 35972 	 Value: 0\nPT: Logical Address: 7262 	 FN: 43008 Physical Address: 43102 	 Value: 30\nPT: Logical Address: 12705 	 FN: 30976 Physical Address: 31137 	 Value: 0\nPT: Logical Address: 7522 	 FN: 6144 Physical Address: 6242 	 Value: 30\nPT: Logical Address: 58815 	 FN: 55040 Physical Address: 55231 	 Value: 111\nPT: Logical Address: 34916 	 FN: 26624 Physical Address: 26724 	 Value: 0\nPT: Logical Address: 3802 	 FN: 9984 Physical Address: 10202 	 Value: 30\nPT: Logical Address: 58008 	 FN: 3072 Physical Address: 3224 	 Value: 0\nPT: Logical Address: 1239 	 FN: 40704 Physical Address: 40919 	 Value: 117\nPT: Logical Address: 63947 	 FN: 21760 Physical Address: 21963 	 Value: 114\nPT: Logical Address: 381 	 FN: 57088 Physical Address: 57213 	 Value: 0\nPT: Logical Address: 60734 	 FN: 23552 Physical Address: 23614 	 Value: 30\nPT: Logical Address: 48769 	 FN: 32768 Physical Address: 32897 	 Value: 0\nPT: Logical Address: 41938 	 FN: 38656 Physical Address: 38866 	 Value: 30\nPT: Logical Address: 38025 	 FN: 37120 Physical Address: 37257 	 Value: 0\nPT: Logical Address: 55099 	 FN: 5120 Physical Address: 5179 	 Value: 78\nPT: Logical Address: 56691 	 FN: 13312 Physical Address: 13427 	 Value: 92\nPT: Logical Address: 39530 	 FN: 43264 Physical Address: 43370 	 Value: 30\nPT: Logical Address: 59003 	 FN: 14848 Physical Address: 14971 	 Value: 94\nPT: Logical Address: 6029 	 FN: 9216 Physical Address: 9357 	 Value: 0\nPT: Logical Address: 20920 	 FN: 38912 Physical Address: 39096 	 Value: 0\nPT: Logical Address: 8077 	 FN: 33792 Physical Address: 33933 	 Value: 0\nPT: Logical Address: 42633 	 FN: 20736 Physical Address: 20873 	 Value: 0\nPT: Logical Address: 17443 	 FN: 40960 Physical Address: 40995 	 Value: 72\nPT: Logical Address: 53570 	 FN: 768 Physical Address: 834 	 Value: 30\nPT: Logical Address: 22833 	 FN: 52736 Physical Address: 52785 	 Value: 0\nPT: Logical Address: 3782 	 FN: 9984 Physical Address: 10182 	 Value: 30\nPT: Logical Address: 47758 	 FN: 56320 Physical Address: 56462 	 Value: 30\nPT: Logical Address: 22136 	 FN: 56576 Physical Address: 56696 	 Value: 0\nPT: Logical Address: 22427 	 FN: 11264 Physical Address: 11419 	 Value: 102\nPT: Logical Address: 23867 	 FN: 39424 Physical Address: 39483 	 Value: 78\nPT: Logical Address: 59968 	 FN: 10496 Physical Address: 10560 	 Value: 0\nFA: Logical Address: 62166 	 FN: 62208 Physical Address: 62422 	 Value: 60\nPT: Logical Address: 6972 	 FN: 26368 Physical Address: 26428 	 Value: 0\nPT: Logical Address: 63684 	 FN: 28160 Physical Address: 28356 	 Value: 0\nPT: Logical Address: 46388 	 FN: 50176 Physical Address: 50228 	 Value: 0\nPT: Logical Address: 41942 	 FN: 38656 Physical Address: 38870 	 Value: 60\nPT: Logical Address: 36524 	 FN: 14336 Physical Address: 14508 	 Value: 0\nPT: Logical Address: 9323 	 FN: 22784 Physical Address: 22891 	 Value: -102\nPT: Logical Address: 31114 	 FN: 61952 Physical Address: 62090 	 Value: 60\nPT: Logical Address: 22345 	 FN: 11264 Physical Address: 11337 	 Value: 0\nPT: Logical Address: 46463 	 FN: 50176 Physical Address: 50303 	 Value: -97\nPT: Logical Address: 54671 	 FN: 48640 Physical Address: 48783 	 Value: -93\nPT: Logical Address: 9214 	 FN: 48128 Physical Address: 48382 	 Value: 60\nPT: Logical Address: 7257 	 FN: 43008 Physical Address: 43097 	 Value: 0\nPT: Logical Address: 33150 	 FN: 53504 Physical Address: 53630 	 Value: 60\nPT: Logical Address: 41565 	 FN: 41728 Physical Address: 41821 	 Value: 0\nPT: Logical Address: 26214 	 FN: 49152 Physical Address: 49254 	 Value: 60\nPT: Logical Address: 3595 	 FN: 9984 Physical Address: 9995 	 Value: -126\nPT: Logical Address: 17932 	 FN: 18688 Physical Address: 18700 	 Value: 0\nPT: Logical Address: 34660 	 FN: 17920 Physical Address: 18020 	 Value: 0\nPT: Logical Address: 51961 	 FN: 27136 Physical Address: 27385 	 Value: 0\nPT: Logical Address: 58634 	 FN: 55040 Physical Address: 55050 	 Value: 60\nPT: Logical Address: 57990 	 FN: 3072 Physical Address: 3206 	 Value: 60\nPT: Logical Address: 28848 	 FN: 1280 Physical Address: 1456 	 Value: 0\nPT: Logical Address: 49920 	 FN: 59136 Physical Address: 59136 	 Value: 0\nPT: Logical Address: 18351 	 FN: 2304 Physical Address: 2479 	 Value: -85\nPT: Logical Address: 53669 	 FN: 768 Physical Address: 933 	 Value: 0\nPT: Logical Address: 33996 	 FN: 41984 Physical Address: 42188 	 Value: 0\nPT: Logical Address: 6741 	 FN: 6656 Physical Address: 6741 	 Value: 0\nPT: Logical Address: 64098 	 FN: 4352 Physical Address: 4450 	 Value: 60\nPT: Logical Address: 606 	 FN: 17152 Physical Address: 17246 	 Value: 60\nPT: Logical Address: 27383 	 FN: 28672 Physical Address: 28919 	 Value: -67\nPT: Logical Address: 63140 	 FN: 22016 Physical Address: 22180 	 Value: 0\nPT: Logical Address: 32228 	 FN: 49664 Physical Address: 49892 	 Value: 0\nPT: Logical Address: 63437 	 FN: 16896 Physical Address: 17101 	 Value: 0\nPT: Logical Address: 29085 	 FN: 16384 Physical Address: 16541 	 Value: 0\nPT: Logical Address: 65080 	 FN: 48384 Physical Address: 48440 	 Value: 0\nPT: Logical Address: 38753 	 FN: 46848 Physical Address: 46945 	 Value: 0\nPT: Logical Address: 16041 	 FN: 20992 Physical Address: 21161 	 Value: 0\nPT: Logical Address: 9041 	 FN: 48128 Physical Address: 48209 	 Value: 0\nPT: Logical Address: 42090 	 FN: 46080 Physical Address: 46186 	 Value: 60\nPT: Logical Address: 46388 	 FN: 50176 Physical Address: 50228 	 Value: 0\nPT: Logical Address: 63650 	 FN: 28160 Physical Address: 28322 	 Value: 60\nPT: Logical Address: 36636 	 FN: 35584 Physical Address: 35612 	 Value: 0\nPT: Logical Address: 21947 	 FN: 24064 Physical Address: 24251 	 Value: -82\nPT: Logical Address: 19833 	 FN: 36352 Physical Address: 36473 	 Value: 0\nPT: Logical Address: 36464 	 FN: 14336 Physical Address: 14448 	 Value: 0\nPT: Logical Address: 8541 	 FN: 19968 Physical Address: 20061 	 Value: 0\nPT: Logical Address: 12712 	 FN: 30976 Physical Address: 31144 	 Value: 0\nPT: Logical Address: 48955 	 FN: 50432 Physical Address: 50491 	 Value: -114\nPT: Logical Address: 39206 	 FN: 55552 Physical Address: 55590 	 Value: 60\nPT: Logical Address: 15578 	 FN: 31744 Physical Address: 31962 	 Value: 60\nPT: Logical Address: 49205 	 FN: 8448 Physical Address: 8501 	 Value: 0\nPT: Logical Address: 7731 	 FN: 57856 Physical Address: 57907 	 Value: -116\nPT: Logical Address: 43046 	 FN: 17408 Physical Address: 17446 	 Value: 60\nPT: Logical Address: 60498 	 FN: 7168 Physical Address: 7250 	 Value: 60\nPT: Logical Address: 9237 	 FN: 22784 Physical Address: 22805 	 Value: 0\nPT: Logical Address: 47706 	 FN: 56320 Physical Address: 56410 	 Value: 60\nPT: Logical Address: 43973 	 FN: 57344 Physical Address: 57541 	 Value: 0\nPT: Logical Address: 42008 	 FN: 46080 Physical Address: 46104 	 Value: 0\nPT: Logical Address: 27460 	 FN: 15616 Physical Address: 15684 	 Value: 0\nPT: Logical Address: 24999 	 FN: 52480 Physical Address: 52647 	 Value: -87\nPT: Logical Address: 51933 	 FN: 27136 Physical Address: 27357 	 Value: 0\nPT: Logical Address: 34070 	 FN: 60928 Physical Address: 60950 	 Value: 60\nPT: Logical Address: 65155 	 FN: 48384 Physical Address: 48515 	 Value: -96\nPT: Logical Address: 59955 	 FN: 10496 Physical Address: 10547 	 Value: -116\nPT: Logical Address: 9277 	 FN: 22784 Physical Address: 22845 	 Value: 0\nPT: Logical Address: 20420 	 FN: 16640 Physical Address: 16836 	 Value: 0\nPT: Logical Address: 44860 	 FN: 13056 Physical Address: 13116 	 Value: 0\nPT: Logical Address: 50992 	 FN: 42752 Physical Address: 42800 	 Value: 0\nPT: Logical Address: 10583 	 FN: 27392 Physical Address: 27479 	 Value: -107\nPT: Logical Address: 57751 	 FN: 61184 Physical Address: 61335 	 Value: -91\nPT: Logical Address: 23195 	 FN: 35840 Physical Address: 35995 	 Value: -90\nPT: Logical Address: 27227 	 FN: 28672 Physical Address: 28763 	 Value: -106\nPT: Logical Address: 42816 	 FN: 19456 Physical Address: 19520 	 Value: 0\nPT: Logical Address: 58219 	 FN: 34048 Physical Address: 34155 	 Value: -102\nPT: Logical Address: 37606 	 FN: 21248 Physical Address: 21478 	 Value: 60\nPT: Logical Address: 18426 	 FN: 2304 Physical Address: 2554 	 Value: 60\nPT: Logical Address: 21238 	 FN: 37632 Physical Address: 37878 	 Value: 60\nPT: Logical Address: 11983 	 FN: 59648 Physical Address: 59855 	 Value: -77\nPT: Logical Address: 48394 	 FN: 1792 Physical Address: 1802 	 Value: 60\nPT: Logical Address: 11036 	 FN: 39936 Physical Address: 39964 	 Value: 0\nPT: Logical Address: 30557 	 FN: 16128 Physical Address: 16221 	 Value: 0\nPT: Logical Address: 23453 	 FN: 20480 Physical Address: 20637 	 Value: 0\nPT: Logical Address: 49847 	 FN: 31488 Physical Address: 31671 	 Value: -83\nPT: Logical Address: 30032 	 FN: 512 Physical Address: 592 	 Value: 0\nPT: Logical Address: 48065 	 FN: 25600 Physical Address: 25793 	 Value: 0\nPT: Logical Address: 6957 	 FN: 26368 Physical Address: 26413 	 Value: 0\nPT: Logical Address: 2301 	 FN: 35072 Physical Address: 35325 	 Value: 0\nPT: Logical Address: 7736 	 FN: 57856 Physical Address: 57912 	 Value: 0\nPT: Logical Address: 31260 	 FN: 23296 Physical Address: 23324 	 Value: 0\nPT: Logical Address: 17071 	 FN: 0 Physical Address: 175 	 Value: -85\nPT: Logical Address: 8940 	 FN: 46336 Physical Address: 46572 	 Value: 0\nPT: Logical Address: 9929 	 FN: 44544 Physical Address: 44745 	 Value: 0\nPT: Logical Address: 45563 	 FN: 45824 Physical Address: 46075 	 Value: -66\nPT: Logical Address: 12107 	 FN: 2560 Physical Address: 2635 	 Value: -110\n",
+			"settings":
+			{
+				"buffer_size": 74035,
+				"line_ending": "Unix",
+				"name": "FA: Logical Address: 16916 	 FN: 0 Physical Addres"
+			}
+		},
+		{
+			"file": "addresses.txt",
+			"settings":
+			{
+				"buffer_size": 5830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "correct.txt",
+			"settings":
+			{
+				"buffer_size": 56343,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/kyle/Development/JustSports/justSports/jsApp/admin.py",
+		"/home/kyle/Development/JustSports/justSports/justSports/settings.py",
+		"/home/kyle/Development/JustSports/justSports/jsApp/urls.py",
+		"/home/kyle/Development/JustSports/justSports/justSports/urls.py",
+		"/home/kyle/Development/JustSports/justSports/requirements.txt",
+		"/home/kyle/Development/knack_Math/knack_Math/knack_Math/settings.py",
+		"/home/kyle/Development/knack_Math/knack_Math/game/signals.py",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/base.html",
+		"/home/kyle/Development/knack_Math/knack_Math/game/urls.py",
+		"/home/kyle/Development/knack_Math/knack_Math/game/__init__.py",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/history/history_overview.html",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/game/student_history.html",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/history/student_history_view.html",
+		"/home/kyle/Development/knack_Math/knack_Math/static/js/knack.js",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/game/level_result.html",
+		"/home/kyle/Development/knack_Math/knack_Math/static/css/knack.css",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/game/answer_modal.html",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/game/map.html",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/game/level.html",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/game/multi_choice.html",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/game/type_choice.html",
+		"/home/kyle/Development/knack_Math/knack_Math/game/models.py",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/game/index.html",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/game/print.html",
+		"/home/kyle/Development/knack_Math/knack_Math/game/admin.py",
+		"/home/kyle/Development/knack_Math/knack_Math/game/forms.py",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/history/level_overview.html",
+		"/home/kyle/Development/knack_Math/knack_Math/templates/game/identification_choice.html",
+		"/home/kyle/Development/three_five_one/hw5/main.c",
+		"/home/kyle/Development/three_five_one/hw5/ta.c",
+		"/home/kyle/Development/three_five_one/hw5/programming.c",
+		"/home/kyle/Development/three_five_one/hw5/help_student.c",
+		"/home/kyle/Development/three_five_one/hw5/student.c",
+		"/home/kyle/Development/three_five_one/hw5/ta.h"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"2560",
+			"v",
+			"Page Number: 177",
+			"Page Number: 47",
+			"e Value: 10",
+			"Value: 10",
+			"10",
+			"12107",
+			"Badge",
+			"__get_user",
+			"total_prob"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "vm.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3958,
+								3957
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2174.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 74035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
+							]
+						],
+						"settings":
+						{
+							"auto_name": "FA: Logical Address: 16916 	 FN: 0 Physical Addres",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "addresses.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5807,
+								5807
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 16371.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "correct.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 56343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48541,
+								48541
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 133.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "hw7.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
