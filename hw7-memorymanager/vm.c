@@ -23,6 +23,8 @@
 
 // number of bytes to read
 #define CHUNK               256
+#define TABLE_SIZE          256
+#define MEMORY_SIZE         256
 
 #define OF_MASK                0x00FF
 
@@ -37,8 +39,8 @@ int     logical_address;
 int     page_number = 0;
 int     offset = 0;
 
-int     page_table[CHUNK];
-int     frame_table[CHUNK];
+int     page_table[TABLE_SIZE];
+int     frame_table[TABLE_SIZE];
 
 int     frame_counter = 0;
 int     physical_counter = 0;
@@ -50,7 +52,7 @@ float     tlb_hits = 0;
 
 
 // This is pretty much the "Physical memory" the system has. 
-signed char     physical_memory[CHUNK*CHUNK];
+signed char     physical_memory[MEMORY_SIZE*MEMORY_SIZE];
 
 // the value of the byte (signed char) in memory
 signed char     value;
@@ -62,19 +64,24 @@ int     tlb_refs[16];
 // The value in here will be the frame in physical memory that addr is in 
 int     tlb_frame_numbers[16];
 
-int     current_fifo_index = 0;
+
+int     current_fifo_index_tlb = 0;
+int     current_fifo_index_pt = 0;
+
+int     items_in_pt = 0;
+
 
 int add_to_tlb(int pn, int fn) {
-    tlb_refs[current_fifo_index] = pn;
-    tlb_frame_numbers[current_fifo_index] = fn;
+    tlb_refs[current_fifo_index_tlb] = pn;
+    tlb_frame_numbers[current_fifo_index_tlb] = fn;
 
-    current_fifo_index++;
-    if (current_fifo_index > 15) {
-        current_fifo_index = 0;
-        return current_fifo_index;
+    current_fifo_index_tlb++;
+    if (current_fifo_index_tlb > 15) {
+        current_fifo_index_tlb = 0;
+        return current_fifo_index_tlb;
     }
 
-    return current_fifo_index-1;
+    return current_fifo_index_tlb-1;
 }
 
 // Return the index of the 
@@ -89,6 +96,10 @@ int check_tlb(int pn) {
     return -1;
 }
 
+int add_page_frame(int pn, int fn) {
+    page_table[pn] = fn;
+}
+
 int main(int argc, char *argv[])
 {
     // perform basic error checking
@@ -97,15 +108,18 @@ int main(int argc, char *argv[])
         return -1;
     }
 
+    // Initalize the arrays for the page table. 
     int x;
-    for (x = 0; x < CHUNK; x++) {
+    for (x = 0; x < TABLE_SIZE; x++) {
         page_table[x] = -1;
     }
 
-    for (x = 0; x < CHUNK; x++) {
+    for (x = 0; x < TABLE_SIZE; x++) {
         // x*chunk is the frame number
         frame_table[x] = x*CHUNK;
     }
+    // #######################################
+
 
     // open the file containing the backing store
     backing_store = fopen(argv[1], "rb");
@@ -157,12 +171,17 @@ int main(int argc, char *argv[])
              
             // Tell the address thing above where it should now be. 
             physical_counter = physical_counter + CHUNK;
+            // if (physical_counter > (MEMORY_SIZE*MEMORY_SIZE)) {
+            //     physical_counter = 0;
+            //     physical_memory[physical_counter] = -1;
+            // }
 
-            // Add the item to the page_table
+
             frame_number = frame_table[frame_counter];
             frame_counter++;
-            page_table[page_number] = frame_number;
 
+            // Add the item to the page_table
+            add_page_frame(page_number, frame_number);            
 
             // Add to the TLB.
             add_to_tlb(page_number, frame_number);
