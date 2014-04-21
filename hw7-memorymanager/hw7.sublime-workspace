@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"frame",
+				"tlb_frame_numbers"
+			],
+			[
+				"check",
+				"check_tlb_index"
+			],
+			[
+				"che",
+				"check_tlb"
+			],
+			[
+				"tlb",
+				"add_to_tlb"
+			],
+			[
+				"tlb_",
+				"tlb_frame_numbers"
+			],
+			[
+				"fram",
+				"frame_number"
+			],
+			[
 				"phy",
-				"physical_memory"
+				"physical_counter"
+			],
+			[
+				"physical",
+				"physical_counter"
 			],
 			[
 				"phys",
@@ -24,16 +52,8 @@
 				"physical_address"
 			],
 			[
-				"fram",
-				"frame_number"
-			],
-			[
 				"page_",
 				"page_number"
-			],
-			[
-				"frame",
-				"frame_number"
 			],
 			[
 				"page",
@@ -155,7 +175,7 @@
 			"file": "vm.c",
 			"settings":
 			{
-				"buffer_size": 4943,
+				"buffer_size": 5827,
 				"line_ending": "Unix"
 			}
 		},
@@ -263,6 +283,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"57990",
 			"2560",
 			"v",
 			"Page Number: 177",
@@ -300,15 +321,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4943,
+						"buffer_size": 5827,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3958,
-								3957
+								3657,
+								3657
 							]
 						],
 						"settings":
@@ -318,7 +339,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2174.0,
+						"translation.y": 2295.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -349,7 +370,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -393,8 +414,8 @@
 						"selection":
 						[
 							[
-								48541,
-								48541
+								56343,
+								56343
 							]
 						],
 						"settings":
@@ -402,10 +423,10 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 16678.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

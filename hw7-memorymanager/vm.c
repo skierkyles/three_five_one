@@ -17,6 +17,7 @@
 #include <unistd.h>
 #include <string.h>
 
+
 // number of characters to read for each line from input file
 #define BUFFER_SIZE         10
 
@@ -42,14 +43,51 @@ int     frame_table[CHUNK];
 int     frame_counter = 0;
 int     physical_counter = 0;
 
-// the buffer containing reads from backing store
-signed char     buffer[CHUNK];
+// Keep track of our faults and such. 
+float     faults = 0;
+float     total_lookups = 0;
+float     tlb_hits = 0;
+
 
 // This is pretty much the "Physical memory" the system has. 
-signed char     *physical_memory[CHUNK*CHUNK];
+signed char     physical_memory[CHUNK*CHUNK];
 
 // the value of the byte (signed char) in memory
 signed char     value;
+char            loc[2];
+int             frame_number;
+
+// This index will match the frame. The value in here will be the logical address.
+int     tlb_refs[16];
+// The value in here will be the frame in physical memory that addr is in 
+int     tlb_frame_numbers[16];
+
+int     current_fifo_index = 0;
+
+int add_to_tlb(int pn, int fn) {
+    tlb_refs[current_fifo_index] = pn;
+    tlb_frame_numbers[current_fifo_index] = fn;
+
+    current_fifo_index++;
+    if (current_fifo_index > 15) {
+        current_fifo_index = 0;
+        return current_fifo_index;
+    }
+
+    return current_fifo_index-1;
+}
+
+// Return the index of the 
+int check_tlb(int pn) {
+    int x;
+    for (x = 0; x < 16; x++) {
+        if (tlb_refs[x] == pn) {
+            return x;
+        }
+    }
+
+    return -1;
+}
 
 int main(int argc, char *argv[])
 {
@@ -60,12 +98,11 @@ int main(int argc, char *argv[])
     }
 
     int x;
-    for (x = 0; x < 256; x++) {
+    for (x = 0; x < CHUNK; x++) {
         page_table[x] = -1;
-        frame_table[x] = -1;
     }
 
-    for (x = 0; x < 256; x++) {
+    for (x = 0; x < CHUNK; x++) {
         // x*chunk is the frame number
         frame_table[x] = x*CHUNK;
     }
@@ -88,6 +125,8 @@ int main(int argc, char *argv[])
 
     // read through the input file and output each logical address
     while ( fgets(address, BUFFER_SIZE, address_file) != NULL) {
+        total_lookups++;
+
         logical_address = atoi(address);
         page_number = (logical_address >> 8);
         offset = (logical_address & OF_MASK);
@@ -95,9 +134,12 @@ int main(int argc, char *argv[])
         value = 0;
 
 
+        int check_tlb_index = check_tlb(page_number);
         // The value isn't in the page table. It's a fault! 
         // ToDo: Check if it's in the TLB.
-        if (page_table[page_number] == -1) {    
+        if ((page_table[page_number] == -1) && (check_tlb_index == -1)) {    
+            faults++;
+
             // first seek to byte CHUNK * page_number in the backing store
             // SEEK_SET in fseek() seeks from the beginning of the file
             if (fseek(backing_store, page_number*CHUNK, SEEK_SET) != 0) {
@@ -105,58 +147,56 @@ int main(int argc, char *argv[])
                 return -1;
             }
 
-            // now read CHUNK bytes from the backing store to the buffer
-            if (fread(buffer, sizeof(signed char), CHUNK, backing_store) == 0) {
+            // now read CHUNK bytes from the backing store to the "physical memory",
+            // The & is needed to say to start reading to the address at the physical counter variable. 
+            // In other words, add starting from the last element of the array. 
+            if (fread(&physical_memory[physical_counter], sizeof(signed char), CHUNK, backing_store) == 0) {
                 fprintf(stderr, "Error reading from backing store\n");
                 return -1;
             }
              
+            // Tell the address thing above where it should now be. 
+            physical_counter = physical_counter + CHUNK;
 
-
-            // printf("PN %d ", page_number);
             // Add the item to the page_table
-            int frame_number = frame_table[frame_counter];
+            frame_number = frame_table[frame_counter];
             frame_counter++;
-            // printf("FN %d ", frame_number);
-            int physical_address = (frame_number | offset);
-            // printf("Phy Addr %d \n", physical_address);
-
-            physical_memory[frame_number] = buffer;
-
             page_table[page_number] = frame_number;
 
-            // Get the value we are going for. 
-            signed char *v = physical_memory[frame_number];
-            value = v[offset];
 
+            // Add to the TLB.
+            add_to_tlb(page_number, frame_number);
 
-            // printf("Page_table Value: %d BValue: %d \n", page_table[page_number], value);
-
-
-
-            // Last result should be:
-            // Virtual address: 12107 Physical address: 2635 Value: -46
-            printf("FA: Logical Address: %d \t FN: %d Physical Address: %d \t Value: %d\n",logical_address, frame_number, physical_address, value);
+            // Tell the printf statement where it came from. 
+            strcpy(loc, "BS");
         } 
 
         else {
-            // printf("PN %d ", page_number);
-            int frame_number = page_table[page_number];
-            // printf("FN %d ", frame_number);
-            // printf("Frame #: %d \n", frame_number);
-            int physical_address = (frame_number | offset);
-            // printf("PA %d \n", physical_address);
-            signed char *v = physical_memory[frame_number];
-            // printf("After V \n");
+            if (check_tlb_index != -1) {
+                strcpy(loc, "TB");
 
-            value = v[offset]; 
-            
-            printf("PT: Logical Address: %d \t FN: %d Physical Address: %d \t Value: %d\n",logical_address, frame_number, physical_address, value);
+                tlb_hits++;
+
+                frame_number = tlb_frame_numbers[check_tlb_index];
+
+            } else {
+                strcpy(loc, "PT");
+
+                frame_number = page_table[page_number];
+            }
         }
+        
+        int physical_address = (frame_number | offset);
+        value = physical_memory[frame_number+offset];
 
-
+        printf("Logical Address: %d \t Physical Address: %d \t Value: %d\n", logical_address, physical_address, value);
     }
 
+    printf("\nTotal Lookups = %0.0f\n", total_lookups);
+    printf("Page Faults = %0.0f\n", faults);
+    printf("Page Fault Rate = %0.3f\n", (faults/total_lookups));
+    printf("TLB Hits = %0.0f\n", tlb_hits);
+    printf("TLB Hit Rate = %0.3f\n", (tlb_hits/total_lookups));
 
     fclose(address_file);
     fclose(backing_store);
