@@ -161,6 +161,10 @@ int main(int argc, char *argv[])
                 return -1;
             }
 
+            // if (physical_counter >= ((MEMORY_SIZE*MEMORY_SIZE)-CHUNK)) {
+            //     physical_counter = 0;                
+            // }
+
             // now read CHUNK bytes from the backing store to the "physical memory",
             // The & is needed to say to start reading to the address at the physical counter variable. 
             // In other words, add starting from the last element of the array. 
@@ -171,10 +175,6 @@ int main(int argc, char *argv[])
              
             // Tell the address thing above where it should now be. 
             physical_counter = physical_counter + CHUNK;
-            // if (physical_counter > (MEMORY_SIZE*MEMORY_SIZE)) {
-            //     physical_counter = 0;
-            //     physical_memory[physical_counter] = -1;
-            // }
 
 
             frame_number = frame_table[frame_counter];
@@ -200,6 +200,8 @@ int main(int argc, char *argv[])
 
             } else {
                 strcpy(loc, "PT");
+
+                add_to_tlb(page_number, frame_number);
 
                 frame_number = page_table[page_number];
             }
